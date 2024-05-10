@@ -1,0 +1,8 @@
+services:
+  bitcoin-core:
+    build: .
+    container_name: bitcoin-core
+    volumes:
+      - ./exercises:/root/exercises
+      - ./datadir:/root/.bitcoin
+      - ./bash_profile:/root/.bash_profile
