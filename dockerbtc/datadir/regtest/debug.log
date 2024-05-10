@@ -1,0 +1,1248 @@
+
+
+
+
+
+2024-05-10T04:03:38Z Bitcoin Core version v27.0.0 (release build)
+2024-05-10T04:03:38Z Script verification uses 9 additional threads
+2024-05-10T04:03:38Z Using the 'arm_shani(1way,2way)' SHA256 implementation
+2024-05-10T04:03:38Z Default data directory /root/.bitcoin
+2024-05-10T04:03:38Z Using data directory /root/.bitcoin/regtest
+2024-05-10T04:03:38Z Config file: /root/.bitcoin/bitcoin.conf
+2024-05-10T04:03:38Z Config file arg: deprecatedrpc="create_bdb"
+2024-05-10T04:03:38Z Config file arg: fallbackfee="0.0001"
+2024-05-10T04:03:38Z Config file arg: regtest="1"
+2024-05-10T04:03:38Z Config file arg: server="1"
+2024-05-10T04:03:38Z Config file arg: txindex="1"
+2024-05-10T04:03:38Z Config file arg: [regtest] rpcbind="0.0.0.0"
+2024-05-10T04:03:38Z Config file arg: [regtest] rpcport="8332"
+2024-05-10T04:03:38Z Command-line arg: datadir="/root/.bitcoin"
+2024-05-10T04:03:38Z Command-line arg: printtoconsole=""
+2024-05-10T04:03:38Z Using at most 125 automatic connections (1048576 file descriptors available)
+2024-05-10T04:03:38Z Using 16 MiB out of 16 MiB requested for signature cache, able to store 524288 elements
+2024-05-10T04:03:38Z Using 16 MiB out of 16 MiB requested for script execution cache, able to store 524288 elements
+2024-05-10T04:03:38Z scheduler thread start
+2024-05-10T04:03:38Z WARNING: option -rpcbind was ignored because -rpcallowip was not specified, refusing to allow everyone to connect
+2024-05-10T04:03:38Z Binding RPC on address ::1 port 8332
+2024-05-10T04:03:38Z Binding RPC on address 127.0.0.1 port 8332
+2024-05-10T04:03:38Z Using random cookie authentication.
+2024-05-10T04:03:38Z Generated RPC authentication cookie /root/.bitcoin/regtest/.cookie
+2024-05-10T04:03:38Z Starting HTTP server with 4 worker threads
+2024-05-10T04:03:38Z Using wallet directory /root/.bitcoin/regtest/wallets
+2024-05-10T04:03:38Z init message: Verifying wallet(s)…
+2024-05-10T04:03:38Z Using /16 prefix for IP bucketing
+2024-05-10T04:03:38Z init message: Loading P2P addresses…
+2024-05-10T04:03:38Z Creating peers.dat because the file was not found ("/root/.bitcoin/regtest/peers.dat")
+2024-05-10T04:03:38Z init message: Loading banlist…
+2024-05-10T04:03:38Z Recreating the banlist database
+2024-05-10T04:03:38Z SetNetworkActive: true
+2024-05-10T04:03:38Z /root/.bitcoin/regtest/fee_estimates.dat is not found. Continue anyway.
+2024-05-10T04:03:38Z Script verification uses 9 additional threads
+2024-05-10T04:03:38Z Cache configuration:
+2024-05-10T04:03:38Z * Using 2.0 MiB for block index database
+2024-05-10T04:03:38Z * Using 56.0 MiB for transaction index database
+2024-05-10T04:03:38Z * Using 8.0 MiB for chain state database
+2024-05-10T04:03:38Z * Using 384.0 MiB for in-memory UTXO set (plus up to 286.1 MiB of unused mempool space)
+2024-05-10T04:03:38Z init message: Loading block index…
+2024-05-10T04:03:38Z Validating signatures for all blocks.
+2024-05-10T04:03:38Z Setting nMinimumChainWork=0000000000000000000000000000000000000000000000000000000000000000
+2024-05-10T04:03:38Z Opening LevelDB in /root/.bitcoin/regtest/blocks/index
+2024-05-10T04:03:38Z Opened LevelDB successfully
+2024-05-10T04:03:38Z Using obfuscation key for /root/.bitcoin/regtest/blocks/index: 0000000000000000
+2024-05-10T04:03:38Z LoadBlockIndexDB: last block file = 0
+2024-05-10T04:03:38Z LoadBlockIndexDB: last block file info: CBlockFileInfo(blocks=0, size=0, heights=0...0, time=1970-01-01...1970-01-01)
+2024-05-10T04:03:38Z Checking all blk files are present...
+2024-05-10T04:03:38Z Initializing databases...
+2024-05-10T04:03:38Z Initializing chainstate Chainstate [ibd] @ height -1 (null)
+2024-05-10T04:03:38Z Opening LevelDB in /root/.bitcoin/regtest/chainstate
+2024-05-10T04:03:38Z Opened LevelDB successfully
+2024-05-10T04:03:38Z Wrote new obfuscate key for /root/.bitcoin/regtest/chainstate: d25c05794bfa954c
+2024-05-10T04:03:38Z Using obfuscation key for /root/.bitcoin/regtest/chainstate: d25c05794bfa954c
+2024-05-10T04:03:38Z Opening LevelDB in /root/.bitcoin/regtest/chainstate
+2024-05-10T04:03:38Z Opened LevelDB successfully
+2024-05-10T04:03:38Z Using obfuscation key for /root/.bitcoin/regtest/chainstate: d25c05794bfa954c
+2024-05-10T04:03:38Z [Chainstate [ibd] @ height -1 (null)] resized coinsdb cache to 8.0 MiB
+2024-05-10T04:03:38Z [Chainstate [ibd] @ height -1 (null)] resized coinstip cache to 384.0 MiB
+2024-05-10T04:03:38Z init message: Verifying blocks…
+2024-05-10T04:03:38Z  block index              31ms
+2024-05-10T04:03:38Z Opening LevelDB in /root/.bitcoin/regtest/indexes/txindex
+2024-05-10T04:03:38Z Opened LevelDB successfully
+2024-05-10T04:03:38Z Using obfuscation key for /root/.bitcoin/regtest/indexes/txindex: 0000000000000000
+2024-05-10T04:03:38Z Setting NODE_NETWORK on non-prune mode
+2024-05-10T04:03:38Z initload thread start
+2024-05-10T04:03:38Z UpdateTip: new best=0f9188f13cb7b2c71f2a335e3a4fc328bf5beb436012afca590b1a11466e2206 height=0 version=0x00000001 log2_work=1.000000 tx=1 date='2011-02-02T23:16:42Z' progress=1.000000 cache=0.3MiB(0txo)
+2024-05-10T04:03:38Z block tree size = 1
+2024-05-10T04:03:38Z nBestHeight = 0
+2024-05-10T04:03:38Z txindex thread start
+2024-05-10T04:03:38Z txindex is enabled at height 0
+2024-05-10T04:03:38Z txindex thread exit
+2024-05-10T04:03:38Z torcontrol thread start
+2024-05-10T04:03:38Z Bound to 127.0.0.1:18445
+2024-05-10T04:03:38Z Bound to [::]:18444
+2024-05-10T04:03:38Z Bound to 0.0.0.0:18444
+2024-05-10T04:03:38Z Failed to open mempool file from disk. Continuing anyway.
+2024-05-10T04:03:38Z initload thread exit
+2024-05-10T04:03:38Z 0 block-relay-only anchors will be tried for connections.
+2024-05-10T04:03:38Z init message: Starting network threads…
+2024-05-10T04:03:38Z net thread start
+2024-05-10T04:03:38Z dnsseed thread start
+2024-05-10T04:03:38Z init message: Done loading
+2024-05-10T04:03:38Z msghand thread start
+2024-05-10T04:03:38Z opencon thread start
+2024-05-10T04:03:38Z Loading addresses from DNS seed dummySeed.invalid.
+2024-05-10T04:03:38Z addcon thread start
+2024-05-10T04:03:38Z 0 addresses found from DNS seeds
+2024-05-10T04:03:38Z dnsseed thread exit
+2024-05-10T04:04:00Z tor: Thread interrupt
+2024-05-10T04:04:00Z torcontrol thread exit
+2024-05-10T04:04:00Z Shutdown: In progress...
+2024-05-10T04:04:00Z opencon thread exit
+2024-05-10T04:04:00Z addcon thread exit
+2024-05-10T04:04:00Z net thread exit
+2024-05-10T04:04:00Z msghand thread exit
+2024-05-10T04:04:00Z DumpAnchors: Flush 0 outbound block-relay-only peer addresses to anchors.dat started
+2024-05-10T04:04:00Z DumpAnchors: Flush 0 outbound block-relay-only peer addresses to anchors.dat completed (0.00s)
+2024-05-10T04:04:00Z scheduler thread exit
+2024-05-10T04:04:00Z Writing 0 unbroadcast transactions to disk.
+2024-05-10T04:04:00Z Dumped mempool: 0.000s to copy, 0.001s to dump
+2024-05-10T04:04:00Z Flushed fee estimates to fee_estimates.dat.
+2024-05-10T04:04:00Z Shutdown: done
+
+
+
+
+
+2024-05-10T04:04:14Z Bitcoin Core version v27.0.0 (release build)
+2024-05-10T04:04:14Z Script verification uses 9 additional threads
+2024-05-10T04:04:14Z Using the 'arm_shani(1way,2way)' SHA256 implementation
+2024-05-10T04:04:14Z Default data directory /root/.bitcoin
+2024-05-10T04:04:14Z Using data directory /root/.bitcoin/regtest
+2024-05-10T04:04:14Z Config file: /root/.bitcoin/bitcoin.conf
+2024-05-10T04:04:14Z Config file arg: deprecatedrpc="create_bdb"
+2024-05-10T04:04:14Z Config file arg: fallbackfee="0.0001"
+2024-05-10T04:04:14Z Config file arg: regtest="1"
+2024-05-10T04:04:14Z Config file arg: server="1"
+2024-05-10T04:04:14Z Config file arg: txindex="1"
+2024-05-10T04:04:14Z Config file arg: [regtest] rpcbind="0.0.0.0"
+2024-05-10T04:04:14Z Config file arg: [regtest] rpcport="8332"
+2024-05-10T04:04:14Z Command-line arg: datadir="/root/.bitcoin"
+2024-05-10T04:04:14Z Command-line arg: printtoconsole=""
+2024-05-10T04:04:14Z Using at most 125 automatic connections (1048576 file descriptors available)
+2024-05-10T04:04:14Z Using 16 MiB out of 16 MiB requested for signature cache, able to store 524288 elements
+2024-05-10T04:04:14Z Using 16 MiB out of 16 MiB requested for script execution cache, able to store 524288 elements
+2024-05-10T04:04:14Z scheduler thread start
+2024-05-10T04:04:14Z WARNING: option -rpcbind was ignored because -rpcallowip was not specified, refusing to allow everyone to connect
+2024-05-10T04:04:14Z Binding RPC on address ::1 port 8332
+2024-05-10T04:04:14Z Binding RPC on address 127.0.0.1 port 8332
+2024-05-10T04:04:14Z Using random cookie authentication.
+2024-05-10T04:04:14Z Generated RPC authentication cookie /root/.bitcoin/regtest/.cookie
+2024-05-10T04:04:14Z Starting HTTP server with 4 worker threads
+2024-05-10T04:04:14Z Using wallet directory /root/.bitcoin/regtest/wallets
+2024-05-10T04:04:14Z init message: Verifying wallet(s)…
+2024-05-10T04:04:14Z Using /16 prefix for IP bucketing
+2024-05-10T04:04:14Z init message: Loading P2P addresses…
+2024-05-10T04:04:14Z Loaded 0 addresses from peers.dat  1ms
+2024-05-10T04:04:14Z init message: Loading banlist…
+2024-05-10T04:04:14Z SetNetworkActive: true
+2024-05-10T04:04:14Z Script verification uses 9 additional threads
+2024-05-10T04:04:14Z Cache configuration:
+2024-05-10T04:04:14Z * Using 2.0 MiB for block index database
+2024-05-10T04:04:14Z * Using 56.0 MiB for transaction index database
+2024-05-10T04:04:14Z * Using 8.0 MiB for chain state database
+2024-05-10T04:04:14Z * Using 384.0 MiB for in-memory UTXO set (plus up to 286.1 MiB of unused mempool space)
+2024-05-10T04:04:14Z init message: Loading block index…
+2024-05-10T04:04:14Z Validating signatures for all blocks.
+2024-05-10T04:04:14Z Setting nMinimumChainWork=0000000000000000000000000000000000000000000000000000000000000000
+2024-05-10T04:04:14Z Opening LevelDB in /root/.bitcoin/regtest/blocks/index
+2024-05-10T04:04:14Z Opened LevelDB successfully
+2024-05-10T04:04:14Z Using obfuscation key for /root/.bitcoin/regtest/blocks/index: 0000000000000000
+2024-05-10T04:04:14Z LoadBlockIndexDB: last block file = 0
+2024-05-10T04:04:14Z LoadBlockIndexDB: last block file info: CBlockFileInfo(blocks=1, size=293, heights=0...0, time=2011-02-02...2011-02-02)
+2024-05-10T04:04:14Z Checking all blk files are present...
+2024-05-10T04:04:14Z Initializing chainstate Chainstate [ibd] @ height -1 (null)
+2024-05-10T04:04:14Z Opening LevelDB in /root/.bitcoin/regtest/chainstate
+2024-05-10T04:04:14Z Opened LevelDB successfully
+2024-05-10T04:04:14Z Using obfuscation key for /root/.bitcoin/regtest/chainstate: d25c05794bfa954c
+2024-05-10T04:04:14Z Loaded best chain: hashBestChain=0f9188f13cb7b2c71f2a335e3a4fc328bf5beb436012afca590b1a11466e2206 height=0 date=2011-02-02T23:16:42Z progress=1.000000
+2024-05-10T04:04:14Z Opening LevelDB in /root/.bitcoin/regtest/chainstate
+2024-05-10T04:04:14Z Opened LevelDB successfully
+2024-05-10T04:04:14Z Using obfuscation key for /root/.bitcoin/regtest/chainstate: d25c05794bfa954c
+2024-05-10T04:04:14Z [Chainstate [ibd] @ height 0 (0f9188f13cb7b2c71f2a335e3a4fc328bf5beb436012afca590b1a11466e2206)] resized coinsdb cache to 8.0 MiB
+2024-05-10T04:04:14Z [Chainstate [ibd] @ height 0 (0f9188f13cb7b2c71f2a335e3a4fc328bf5beb436012afca590b1a11466e2206)] resized coinstip cache to 384.0 MiB
+2024-05-10T04:04:14Z init message: Verifying blocks…
+2024-05-10T04:04:14Z  block index              19ms
+2024-05-10T04:04:14Z Opening LevelDB in /root/.bitcoin/regtest/indexes/txindex
+2024-05-10T04:04:14Z Opened LevelDB successfully
+2024-05-10T04:04:14Z Using obfuscation key for /root/.bitcoin/regtest/indexes/txindex: 0000000000000000
+2024-05-10T04:04:14Z Setting NODE_NETWORK on non-prune mode
+2024-05-10T04:04:14Z block tree size = 1
+2024-05-10T04:04:14Z nBestHeight = 0
+2024-05-10T04:04:14Z initload thread start
+2024-05-10T04:04:14Z torcontrol thread start
+2024-05-10T04:04:14Z Bound to 127.0.0.1:18445
+2024-05-10T04:04:14Z Bound to [::]:18444
+2024-05-10T04:04:14Z Bound to 0.0.0.0:18444
+2024-05-10T04:04:14Z txindex thread start
+2024-05-10T04:04:14Z txindex is enabled at height 0
+2024-05-10T04:04:14Z Loading 0 mempool transactions from disk...
+2024-05-10T04:04:14Z Imported mempool transactions from disk: 0 succeeded, 0 failed, 0 expired, 0 already there, 0 waiting for initial broadcast
+2024-05-10T04:04:14Z Loaded 0 addresses from "anchors.dat"
+2024-05-10T04:04:14Z txindex thread exit
+2024-05-10T04:04:14Z initload thread exit
+2024-05-10T04:04:14Z 0 block-relay-only anchors will be tried for connections.
+2024-05-10T04:04:14Z init message: Starting network threads…
+2024-05-10T04:04:14Z dnsseed thread start
+2024-05-10T04:04:14Z Loading addresses from DNS seed dummySeed.invalid.
+2024-05-10T04:04:14Z init message: Done loading
+2024-05-10T04:04:14Z opencon thread start
+2024-05-10T04:04:14Z net thread start
+2024-05-10T04:04:14Z addcon thread start
+2024-05-10T04:04:14Z msghand thread start
+2024-05-10T04:04:14Z 0 addresses found from DNS seeds
+2024-05-10T04:04:14Z dnsseed thread exit
+2024-05-10T04:05:15Z Adding fixed seeds as 60 seconds have passed and addrman is empty for at least one reachable network
+2024-05-10T04:05:15Z Added 0 fixed seeds from reachable networks.
+2024-05-10T04:12:08Z tor: Thread interrupt
+2024-05-10T04:12:08Z Shutdown: In progress...
+2024-05-10T04:12:08Z torcontrol thread exit
+2024-05-10T04:12:08Z addcon thread exit
+2024-05-10T04:12:08Z opencon thread exit
+2024-05-10T04:12:08Z net thread exit
+2024-05-10T04:12:08Z msghand thread exit
+2024-05-10T04:12:08Z DumpAnchors: Flush 0 outbound block-relay-only peer addresses to anchors.dat started
+2024-05-10T04:12:08Z DumpAnchors: Flush 0 outbound block-relay-only peer addresses to anchors.dat completed (0.00s)
+2024-05-10T04:12:08Z scheduler thread exit
+2024-05-10T04:12:08Z Writing 0 unbroadcast transactions to disk.
+2024-05-10T04:12:08Z Dumped mempool: 0.000s to copy, 0.002s to dump
+2024-05-10T04:12:08Z Flushed fee estimates to fee_estimates.dat.
+2024-05-10T04:12:08Z Shutdown: done
+
+
+
+
+
+2024-05-10T04:13:01Z Bitcoin Core version v27.0.0 (release build)
+2024-05-10T04:13:01Z Script verification uses 9 additional threads
+2024-05-10T04:13:01Z Using the 'arm_shani(1way,2way)' SHA256 implementation
+2024-05-10T04:13:01Z Default data directory /root/.bitcoin
+2024-05-10T04:13:01Z Using data directory /root/.bitcoin/regtest
+2024-05-10T04:13:01Z Config file: /root/.bitcoin/bitcoin.conf
+2024-05-10T04:13:01Z Config file arg: deprecatedrpc="create_bdb"
+2024-05-10T04:13:01Z Config file arg: fallbackfee="0.0001"
+2024-05-10T04:13:01Z Config file arg: regtest="1"
+2024-05-10T04:13:01Z Config file arg: server="1"
+2024-05-10T04:13:01Z Config file arg: txindex="1"
+2024-05-10T04:13:01Z Config file arg: [regtest] rpcbind="0.0.0.0"
+2024-05-10T04:13:01Z Config file arg: [regtest] rpcport="8332"
+2024-05-10T04:13:01Z Command-line arg: datadir="/root/.bitcoin"
+2024-05-10T04:13:01Z Command-line arg: printtoconsole=""
+2024-05-10T04:13:01Z Using at most 125 automatic connections (1048576 file descriptors available)
+2024-05-10T04:13:01Z Using 16 MiB out of 16 MiB requested for signature cache, able to store 524288 elements
+2024-05-10T04:13:01Z Using 16 MiB out of 16 MiB requested for script execution cache, able to store 524288 elements
+2024-05-10T04:13:01Z scheduler thread start
+2024-05-10T04:13:01Z WARNING: option -rpcbind was ignored because -rpcallowip was not specified, refusing to allow everyone to connect
+2024-05-10T04:13:01Z Binding RPC on address ::1 port 8332
+2024-05-10T04:13:01Z Binding RPC on address 127.0.0.1 port 8332
+2024-05-10T04:13:01Z Using random cookie authentication.
+2024-05-10T04:13:01Z Generated RPC authentication cookie /root/.bitcoin/regtest/.cookie
+2024-05-10T04:13:01Z Starting HTTP server with 4 worker threads
+2024-05-10T04:13:01Z Using wallet directory /root/.bitcoin/regtest/wallets
+2024-05-10T04:13:01Z init message: Verifying wallet(s)…
+2024-05-10T04:13:01Z Using /16 prefix for IP bucketing
+2024-05-10T04:13:01Z init message: Loading P2P addresses…
+2024-05-10T04:13:01Z Loaded 0 addresses from peers.dat  0ms
+2024-05-10T04:13:01Z init message: Loading banlist…
+2024-05-10T04:13:01Z SetNetworkActive: true
+2024-05-10T04:13:01Z Script verification uses 9 additional threads
+2024-05-10T04:13:01Z Cache configuration:
+2024-05-10T04:13:01Z * Using 2.0 MiB for block index database
+2024-05-10T04:13:01Z * Using 56.0 MiB for transaction index database
+2024-05-10T04:13:01Z * Using 8.0 MiB for chain state database
+2024-05-10T04:13:01Z * Using 384.0 MiB for in-memory UTXO set (plus up to 286.1 MiB of unused mempool space)
+2024-05-10T04:13:01Z init message: Loading block index…
+2024-05-10T04:13:01Z Validating signatures for all blocks.
+2024-05-10T04:13:01Z Setting nMinimumChainWork=0000000000000000000000000000000000000000000000000000000000000000
+2024-05-10T04:13:01Z Opening LevelDB in /root/.bitcoin/regtest/blocks/index
+2024-05-10T04:13:01Z Opened LevelDB successfully
+2024-05-10T04:13:01Z Using obfuscation key for /root/.bitcoin/regtest/blocks/index: 0000000000000000
+2024-05-10T04:13:01Z LoadBlockIndexDB: last block file = 0
+2024-05-10T04:13:01Z LoadBlockIndexDB: last block file info: CBlockFileInfo(blocks=1, size=293, heights=0...0, time=2011-02-02...2011-02-02)
+2024-05-10T04:13:01Z Checking all blk files are present...
+2024-05-10T04:13:01Z Initializing chainstate Chainstate [ibd] @ height -1 (null)
+2024-05-10T04:13:01Z Opening LevelDB in /root/.bitcoin/regtest/chainstate
+2024-05-10T04:13:01Z Opened LevelDB successfully
+2024-05-10T04:13:01Z Using obfuscation key for /root/.bitcoin/regtest/chainstate: d25c05794bfa954c
+2024-05-10T04:13:01Z Loaded best chain: hashBestChain=0f9188f13cb7b2c71f2a335e3a4fc328bf5beb436012afca590b1a11466e2206 height=0 date=2011-02-02T23:16:42Z progress=1.000000
+2024-05-10T04:13:01Z Opening LevelDB in /root/.bitcoin/regtest/chainstate
+2024-05-10T04:13:01Z Opened LevelDB successfully
+2024-05-10T04:13:01Z Using obfuscation key for /root/.bitcoin/regtest/chainstate: d25c05794bfa954c
+2024-05-10T04:13:01Z [Chainstate [ibd] @ height 0 (0f9188f13cb7b2c71f2a335e3a4fc328bf5beb436012afca590b1a11466e2206)] resized coinsdb cache to 8.0 MiB
+2024-05-10T04:13:01Z [Chainstate [ibd] @ height 0 (0f9188f13cb7b2c71f2a335e3a4fc328bf5beb436012afca590b1a11466e2206)] resized coinstip cache to 384.0 MiB
+2024-05-10T04:13:01Z init message: Verifying blocks…
+2024-05-10T04:13:01Z  block index              13ms
+2024-05-10T04:13:01Z Opening LevelDB in /root/.bitcoin/regtest/indexes/txindex
+2024-05-10T04:13:01Z Opened LevelDB successfully
+2024-05-10T04:13:01Z Using obfuscation key for /root/.bitcoin/regtest/indexes/txindex: 0000000000000000
+2024-05-10T04:13:01Z Setting NODE_NETWORK on non-prune mode
+2024-05-10T04:13:01Z block tree size = 1
+2024-05-10T04:13:01Z nBestHeight = 0
+2024-05-10T04:13:01Z initload thread start
+2024-05-10T04:13:01Z torcontrol thread start
+2024-05-10T04:13:01Z Bound to 127.0.0.1:18445
+2024-05-10T04:13:01Z Bound to [::]:18444
+2024-05-10T04:13:01Z txindex thread start
+2024-05-10T04:13:01Z txindex is enabled at height 0
+2024-05-10T04:13:01Z txindex thread exit
+2024-05-10T04:13:01Z Bound to 0.0.0.0:18444
+2024-05-10T04:13:01Z Loading 0 mempool transactions from disk...
+2024-05-10T04:13:01Z Imported mempool transactions from disk: 0 succeeded, 0 failed, 0 expired, 0 already there, 0 waiting for initial broadcast
+2024-05-10T04:13:01Z Loaded 0 addresses from "anchors.dat"
+2024-05-10T04:13:01Z initload thread exit
+2024-05-10T04:13:01Z 0 block-relay-only anchors will be tried for connections.
+2024-05-10T04:13:01Z init message: Starting network threads…
+2024-05-10T04:13:01Z net thread start
+2024-05-10T04:13:01Z dnsseed thread start
+2024-05-10T04:13:01Z Loading addresses from DNS seed dummySeed.invalid.
+2024-05-10T04:13:01Z addcon thread start
+2024-05-10T04:13:01Z init message: Done loading
+2024-05-10T04:13:01Z msghand thread start
+2024-05-10T04:13:01Z opencon thread start
+2024-05-10T04:13:01Z 0 addresses found from DNS seeds
+2024-05-10T04:13:01Z dnsseed thread exit
+2024-05-10T04:14:02Z Adding fixed seeds as 60 seconds have passed and addrman is empty for at least one reachable network
+2024-05-10T04:14:02Z Added 0 fixed seeds from reachable networks.
+2024-05-10T04:15:22Z tor: Thread interrupt
+2024-05-10T04:15:22Z Shutdown: In progress...
+2024-05-10T04:15:22Z torcontrol thread exit
+2024-05-10T04:15:22Z opencon thread exit
+2024-05-10T04:15:22Z addcon thread exit
+2024-05-10T04:15:22Z net thread exit
+2024-05-10T04:15:22Z msghand thread exit
+2024-05-10T04:15:22Z DumpAnchors: Flush 0 outbound block-relay-only peer addresses to anchors.dat started
+2024-05-10T04:15:22Z DumpAnchors: Flush 0 outbound block-relay-only peer addresses to anchors.dat completed (0.00s)
+2024-05-10T04:15:22Z scheduler thread exit
+2024-05-10T04:15:22Z Writing 0 unbroadcast transactions to disk.
+2024-05-10T04:15:22Z Dumped mempool: 0.000s to copy, 0.002s to dump
+2024-05-10T04:15:22Z Flushed fee estimates to fee_estimates.dat.
+2024-05-10T04:15:22Z Shutdown: done
+
+
+
+
+
+2024-05-10T04:15:27Z Bitcoin Core version v27.0.0 (release build)
+2024-05-10T04:15:27Z Script verification uses 9 additional threads
+2024-05-10T04:15:27Z Using the 'arm_shani(1way,2way)' SHA256 implementation
+2024-05-10T04:15:27Z Default data directory /root/.bitcoin
+2024-05-10T04:15:27Z Using data directory /root/.bitcoin/regtest
+2024-05-10T04:15:27Z Config file: /root/.bitcoin/bitcoin.conf
+2024-05-10T04:15:27Z Config file arg: deprecatedrpc="create_bdb"
+2024-05-10T04:15:27Z Config file arg: fallbackfee="0.0001"
+2024-05-10T04:15:27Z Config file arg: regtest="1"
+2024-05-10T04:15:27Z Config file arg: server="1"
+2024-05-10T04:15:27Z Config file arg: txindex="1"
+2024-05-10T04:15:27Z Config file arg: [regtest] rpcbind="0.0.0.0"
+2024-05-10T04:15:27Z Config file arg: [regtest] rpcport="8332"
+2024-05-10T04:15:27Z Command-line arg: datadir="/root/.bitcoin"
+2024-05-10T04:15:27Z Command-line arg: printtoconsole=""
+2024-05-10T04:15:27Z Using at most 125 automatic connections (1048576 file descriptors available)
+2024-05-10T04:15:27Z Using 16 MiB out of 16 MiB requested for signature cache, able to store 524288 elements
+2024-05-10T04:15:27Z Using 16 MiB out of 16 MiB requested for script execution cache, able to store 524288 elements
+2024-05-10T04:15:27Z scheduler thread start
+2024-05-10T04:15:27Z WARNING: option -rpcbind was ignored because -rpcallowip was not specified, refusing to allow everyone to connect
+2024-05-10T04:15:27Z Binding RPC on address ::1 port 8332
+2024-05-10T04:15:27Z Binding RPC on address 127.0.0.1 port 8332
+2024-05-10T04:15:27Z Using random cookie authentication.
+2024-05-10T04:15:27Z Generated RPC authentication cookie /root/.bitcoin/regtest/.cookie
+2024-05-10T04:15:27Z Starting HTTP server with 4 worker threads
+2024-05-10T04:15:27Z Using wallet directory /root/.bitcoin/regtest/wallets
+2024-05-10T04:15:27Z init message: Verifying wallet(s)…
+2024-05-10T04:15:27Z Using /16 prefix for IP bucketing
+2024-05-10T04:15:27Z init message: Loading P2P addresses…
+2024-05-10T04:15:27Z Loaded 0 addresses from peers.dat  0ms
+2024-05-10T04:15:27Z init message: Loading banlist…
+2024-05-10T04:15:27Z SetNetworkActive: true
+2024-05-10T04:15:27Z Script verification uses 9 additional threads
+2024-05-10T04:15:27Z Cache configuration:
+2024-05-10T04:15:27Z * Using 2.0 MiB for block index database
+2024-05-10T04:15:27Z * Using 56.0 MiB for transaction index database
+2024-05-10T04:15:27Z * Using 8.0 MiB for chain state database
+2024-05-10T04:15:27Z * Using 384.0 MiB for in-memory UTXO set (plus up to 286.1 MiB of unused mempool space)
+2024-05-10T04:15:27Z init message: Loading block index…
+2024-05-10T04:15:27Z Validating signatures for all blocks.
+2024-05-10T04:15:27Z Setting nMinimumChainWork=0000000000000000000000000000000000000000000000000000000000000000
+2024-05-10T04:15:27Z Opening LevelDB in /root/.bitcoin/regtest/blocks/index
+2024-05-10T04:15:27Z Opened LevelDB successfully
+2024-05-10T04:15:27Z Using obfuscation key for /root/.bitcoin/regtest/blocks/index: 0000000000000000
+2024-05-10T04:15:27Z LoadBlockIndexDB: last block file = 0
+2024-05-10T04:15:27Z LoadBlockIndexDB: last block file info: CBlockFileInfo(blocks=1, size=293, heights=0...0, time=2011-02-02...2011-02-02)
+2024-05-10T04:15:27Z Checking all blk files are present...
+2024-05-10T04:15:27Z Initializing chainstate Chainstate [ibd] @ height -1 (null)
+2024-05-10T04:15:27Z Opening LevelDB in /root/.bitcoin/regtest/chainstate
+2024-05-10T04:15:27Z Opened LevelDB successfully
+2024-05-10T04:15:27Z Using obfuscation key for /root/.bitcoin/regtest/chainstate: d25c05794bfa954c
+2024-05-10T04:15:27Z Loaded best chain: hashBestChain=0f9188f13cb7b2c71f2a335e3a4fc328bf5beb436012afca590b1a11466e2206 height=0 date=2011-02-02T23:16:42Z progress=1.000000
+2024-05-10T04:15:27Z Opening LevelDB in /root/.bitcoin/regtest/chainstate
+2024-05-10T04:15:27Z Opened LevelDB successfully
+2024-05-10T04:15:27Z Using obfuscation key for /root/.bitcoin/regtest/chainstate: d25c05794bfa954c
+2024-05-10T04:15:27Z [Chainstate [ibd] @ height 0 (0f9188f13cb7b2c71f2a335e3a4fc328bf5beb436012afca590b1a11466e2206)] resized coinsdb cache to 8.0 MiB
+2024-05-10T04:15:27Z [Chainstate [ibd] @ height 0 (0f9188f13cb7b2c71f2a335e3a4fc328bf5beb436012afca590b1a11466e2206)] resized coinstip cache to 384.0 MiB
+2024-05-10T04:15:27Z init message: Verifying blocks…
+2024-05-10T04:15:27Z  block index              23ms
+2024-05-10T04:15:27Z Opening LevelDB in /root/.bitcoin/regtest/indexes/txindex
+2024-05-10T04:15:27Z Opened LevelDB successfully
+2024-05-10T04:15:27Z Using obfuscation key for /root/.bitcoin/regtest/indexes/txindex: 0000000000000000
+2024-05-10T04:15:27Z Setting NODE_NETWORK on non-prune mode
+2024-05-10T04:15:27Z block tree size = 1
+2024-05-10T04:15:27Z nBestHeight = 0
+2024-05-10T04:15:27Z initload thread start
+2024-05-10T04:15:27Z Bound to 127.0.0.1:18445
+2024-05-10T04:15:27Z Bound to [::]:18444
+2024-05-10T04:15:27Z Bound to 0.0.0.0:18444
+2024-05-10T04:15:27Z torcontrol thread start
+2024-05-10T04:15:27Z txindex thread start
+2024-05-10T04:15:27Z txindex is enabled at height 0
+2024-05-10T04:15:27Z txindex thread exit
+2024-05-10T04:15:27Z Loaded 0 addresses from "anchors.dat"
+2024-05-10T04:15:27Z Loading 0 mempool transactions from disk...
+2024-05-10T04:15:27Z Imported mempool transactions from disk: 0 succeeded, 0 failed, 0 expired, 0 already there, 0 waiting for initial broadcast
+2024-05-10T04:15:27Z 0 block-relay-only anchors will be tried for connections.
+2024-05-10T04:15:27Z initload thread exit
+2024-05-10T04:15:27Z init message: Starting network threads…
+2024-05-10T04:15:27Z net thread start
+2024-05-10T04:15:27Z addcon thread start
+2024-05-10T04:15:27Z msghand thread start
+2024-05-10T04:15:27Z dnsseed thread start
+2024-05-10T04:15:27Z Loading addresses from DNS seed dummySeed.invalid.
+2024-05-10T04:15:27Z init message: Done loading
+2024-05-10T04:15:27Z opencon thread start
+2024-05-10T04:15:27Z 0 addresses found from DNS seeds
+2024-05-10T04:15:27Z dnsseed thread exit
+2024-05-10T04:16:28Z Adding fixed seeds as 60 seconds have passed and addrman is empty for at least one reachable network
+2024-05-10T04:16:28Z Added 0 fixed seeds from reachable networks.
+2024-05-10T04:17:40Z Using BerkeleyDB version Berkeley DB 4.8.30: (April  9, 2010)
+2024-05-10T04:17:40Z Using wallet /root/.bitcoin/regtest/wallets/wallet.dat
+2024-05-10T04:17:40Z BerkeleyEnvironment::Open: LogDir=/root/.bitcoin/regtest/wallets/database ErrorFile=/root/.bitcoin/regtest/wallets/db.log
+2024-05-10T04:17:40Z init message: Loading wallet…
+2024-05-10T04:17:40Z [default wallet] Wallet file version = 10500, last client version = 270000
+2024-05-10T04:17:40Z [default wallet] Legacy Wallet Keys: 0 plaintext, 0 encrypted, 0 w/ metadata, 0 total.
+2024-05-10T04:17:40Z [default wallet] Descriptors: 0, Descriptor Keys: 0 plaintext, 0 encrypted, 0 total.
+2024-05-10T04:17:40Z [default wallet] Setting minversion to 169900
+2024-05-10T04:17:40Z [default wallet] keypool added 2000 keys (1000 internal), size=2000 (1000 internal)
+2024-05-10T04:17:41Z [default wallet] LegacyScriptPubKeyMan::NewKeyPool rewrote keypool
+2024-05-10T04:17:41Z [default wallet] Wallet completed loading in             528ms
+2024-05-10T04:17:41Z [default wallet] setKeyPool.size() = 2000
+2024-05-10T04:17:41Z [default wallet] mapWallet.size() = 0
+2024-05-10T04:17:41Z [default wallet] m_address_book.size() = 0
+2024-05-10T04:17:55Z [default wallet] keypool reserve 1
+2024-05-10T04:17:55Z [default wallet] keypool keep 1
+2024-05-10T04:47:43Z Potential stale tip detected, will try using extra outbound peer (last tip update: 1891 seconds ago)
+2024-05-10T05:14:45Z Potential stale tip detected, will try using extra outbound peer (last tip update: 3513 seconds ago)
+2024-05-10T05:35:15Z Potential stale tip detected, will try using extra outbound peer (last tip update: 4743 seconds ago)
+2024-05-10T06:08:41Z Potential stale tip detected, will try using extra outbound peer (last tip update: 6749 seconds ago)
+2024-05-10T06:28:14Z Potential stale tip detected, will try using extra outbound peer (last tip update: 7922 seconds ago)
+2024-05-10T06:46:52Z Potential stale tip detected, will try using extra outbound peer (last tip update: 9040 seconds ago)
+2024-05-10T07:11:46Z Potential stale tip detected, will try using extra outbound peer (last tip update: 10534 seconds ago)
+2024-05-10T07:27:29Z Potential stale tip detected, will try using extra outbound peer (last tip update: 11477 seconds ago)
+2024-05-10T07:29:44Z Flushed fee estimates to fee_estimates.dat.
+2024-05-10T07:46:23Z Potential stale tip detected, will try using extra outbound peer (last tip update: 12611 seconds ago)
+2024-05-10T08:11:13Z Potential stale tip detected, will try using extra outbound peer (last tip update: 14101 seconds ago)
+2024-05-10T08:30:39Z Potential stale tip detected, will try using extra outbound peer (last tip update: 15267 seconds ago)
+2024-05-10T08:41:09Z Potential stale tip detected, will try using extra outbound peer (last tip update: 15897 seconds ago)
+2024-05-10T08:53:53Z Potential stale tip detected, will try using extra outbound peer (last tip update: 16661 seconds ago)
+2024-05-10T09:10:48Z Potential stale tip detected, will try using extra outbound peer (last tip update: 17676 seconds ago)
+2024-05-10T09:28:48Z Potential stale tip detected, will try using extra outbound peer (last tip update: 18756 seconds ago)
+2024-05-10T09:45:07Z Potential stale tip detected, will try using extra outbound peer (last tip update: 19735 seconds ago)
+2024-05-10T09:55:27Z Potential stale tip detected, will try using extra outbound peer (last tip update: 20355 seconds ago)
+2024-05-10T10:18:09Z Potential stale tip detected, will try using extra outbound peer (last tip update: 21717 seconds ago)
+2024-05-10T10:38:52Z Potential stale tip detected, will try using extra outbound peer (last tip update: 22960 seconds ago)
+2024-05-10T10:56:09Z Potential stale tip detected, will try using extra outbound peer (last tip update: 23997 seconds ago)
+2024-05-10T11:14:45Z Potential stale tip detected, will try using extra outbound peer (last tip update: 25113 seconds ago)
+2024-05-10T11:31:38Z Potential stale tip detected, will try using extra outbound peer (last tip update: 26126 seconds ago)
+2024-05-10T11:49:36Z Potential stale tip detected, will try using extra outbound peer (last tip update: 27204 seconds ago)
+2024-05-10T12:14:54Z Potential stale tip detected, will try using extra outbound peer (last tip update: 28722 seconds ago)
+2024-05-10T12:33:08Z Potential stale tip detected, will try using extra outbound peer (last tip update: 29816 seconds ago)
+2024-05-10T12:51:48Z Flushed fee estimates to fee_estimates.dat.
+2024-05-10T12:51:49Z Potential stale tip detected, will try using extra outbound peer (last tip update: 30937 seconds ago)
+2024-05-10T13:04:37Z Potential stale tip detected, will try using extra outbound peer (last tip update: 31705 seconds ago)
+2024-05-10T13:15:08Z Potential stale tip detected, will try using extra outbound peer (last tip update: 32336 seconds ago)
+2024-05-10T13:18:50Z tor: Thread interrupt
+2024-05-10T13:18:50Z Shutdown: In progress...
+2024-05-10T13:18:50Z torcontrol thread exit
+2024-05-10T13:18:50Z opencon thread exit
+2024-05-10T13:18:50Z addcon thread exit
+2024-05-10T13:18:50Z net thread exit
+2024-05-10T13:18:50Z msghand thread exit
+2024-05-10T13:18:50Z DumpAnchors: Flush 0 outbound block-relay-only peer addresses to anchors.dat started
+2024-05-10T13:18:50Z DumpAnchors: Flush 0 outbound block-relay-only peer addresses to anchors.dat completed (0.00s)
+2024-05-10T13:18:50Z scheduler thread exit
+2024-05-10T13:18:50Z Writing 0 unbroadcast transactions to disk.
+2024-05-10T13:18:50Z Dumped mempool: 0.000s to copy, 0.002s to dump
+2024-05-10T13:18:50Z Flushed fee estimates to fee_estimates.dat.
+2024-05-10T13:18:50Z [default wallet] Releasing wallet
+2024-05-10T13:18:50Z Shutdown: done
+
+
+
+
+
+2024-05-10T13:38:08Z Bitcoin Core version v27.0.0 (release build)
+2024-05-10T13:38:08Z Script verification uses 9 additional threads
+2024-05-10T13:38:08Z Using the 'arm_shani(1way,2way)' SHA256 implementation
+2024-05-10T13:38:08Z Default data directory /root/.bitcoin
+2024-05-10T13:38:08Z Using data directory /root/.bitcoin/regtest
+2024-05-10T13:38:08Z Config file: /root/.bitcoin/bitcoin.conf
+2024-05-10T13:38:08Z Config file arg: deprecatedrpc="create_bdb"
+2024-05-10T13:38:08Z Config file arg: fallbackfee="0.0001"
+2024-05-10T13:38:08Z Config file arg: regtest="1"
+2024-05-10T13:38:08Z Config file arg: server="1"
+2024-05-10T13:38:08Z Config file arg: txindex="1"
+2024-05-10T13:38:08Z Config file arg: [regtest] mintxfee="0.001"
+2024-05-10T13:38:08Z Config file arg: [regtest] rpcbind="0.0.0.0"
+2024-05-10T13:38:08Z Config file arg: [regtest] rpcport="8332"
+2024-05-10T13:38:08Z Config file arg: [regtest] txconfirmtarget="1"
+2024-05-10T13:38:08Z Command-line arg: datadir="/root/.bitcoin"
+2024-05-10T13:38:08Z Command-line arg: printtoconsole=""
+2024-05-10T13:38:08Z Using at most 125 automatic connections (1048576 file descriptors available)
+2024-05-10T13:38:08Z Using 16 MiB out of 16 MiB requested for signature cache, able to store 524288 elements
+2024-05-10T13:38:08Z Using 16 MiB out of 16 MiB requested for script execution cache, able to store 524288 elements
+2024-05-10T13:38:08Z scheduler thread start
+2024-05-10T13:38:08Z WARNING: option -rpcbind was ignored because -rpcallowip was not specified, refusing to allow everyone to connect
+2024-05-10T13:38:08Z Binding RPC on address ::1 port 8332
+2024-05-10T13:38:08Z Binding RPC on address 127.0.0.1 port 8332
+2024-05-10T13:38:08Z Using random cookie authentication.
+2024-05-10T13:38:08Z Generated RPC authentication cookie /root/.bitcoin/regtest/.cookie
+2024-05-10T13:38:08Z Starting HTTP server with 4 worker threads
+2024-05-10T13:38:08Z Using wallet directory /root/.bitcoin/regtest/wallets
+2024-05-10T13:38:08Z init message: Verifying wallet(s)…
+2024-05-10T13:38:08Z Using BerkeleyDB version Berkeley DB 4.8.30: (April  9, 2010)
+2024-05-10T13:38:08Z Using wallet /root/.bitcoin/regtest/wallets/wallet.dat
+2024-05-10T13:38:08Z BerkeleyEnvironment::Open: LogDir=/root/.bitcoin/regtest/wallets/database ErrorFile=/root/.bitcoin/regtest/wallets/db.log
+2024-05-10T13:38:08Z Using /16 prefix for IP bucketing
+2024-05-10T13:38:08Z init message: Loading P2P addresses…
+2024-05-10T13:38:08Z Loaded 0 addresses from peers.dat  0ms
+2024-05-10T13:38:08Z init message: Loading banlist…
+2024-05-10T13:38:08Z SetNetworkActive: true
+2024-05-10T13:38:08Z Script verification uses 9 additional threads
+2024-05-10T13:38:08Z Cache configuration:
+2024-05-10T13:38:08Z * Using 2.0 MiB for block index database
+2024-05-10T13:38:08Z * Using 56.0 MiB for transaction index database
+2024-05-10T13:38:08Z * Using 8.0 MiB for chain state database
+2024-05-10T13:38:08Z * Using 384.0 MiB for in-memory UTXO set (plus up to 286.1 MiB of unused mempool space)
+2024-05-10T13:38:08Z init message: Loading block index…
+2024-05-10T13:38:08Z Validating signatures for all blocks.
+2024-05-10T13:38:08Z Setting nMinimumChainWork=0000000000000000000000000000000000000000000000000000000000000000
+2024-05-10T13:38:08Z Opening LevelDB in /root/.bitcoin/regtest/blocks/index
+2024-05-10T13:38:08Z Opened LevelDB successfully
+2024-05-10T13:38:08Z Using obfuscation key for /root/.bitcoin/regtest/blocks/index: 0000000000000000
+2024-05-10T13:38:08Z LoadBlockIndexDB: last block file = 0
+2024-05-10T13:38:08Z LoadBlockIndexDB: last block file info: CBlockFileInfo(blocks=1, size=293, heights=0...0, time=2011-02-02...2011-02-02)
+2024-05-10T13:38:08Z Checking all blk files are present...
+2024-05-10T13:38:08Z Initializing chainstate Chainstate [ibd] @ height -1 (null)
+2024-05-10T13:38:08Z Opening LevelDB in /root/.bitcoin/regtest/chainstate
+2024-05-10T13:38:08Z Opened LevelDB successfully
+2024-05-10T13:38:08Z Using obfuscation key for /root/.bitcoin/regtest/chainstate: d25c05794bfa954c
+2024-05-10T13:38:08Z Loaded best chain: hashBestChain=0f9188f13cb7b2c71f2a335e3a4fc328bf5beb436012afca590b1a11466e2206 height=0 date=2011-02-02T23:16:42Z progress=1.000000
+2024-05-10T13:38:08Z Opening LevelDB in /root/.bitcoin/regtest/chainstate
+2024-05-10T13:38:08Z Opened LevelDB successfully
+2024-05-10T13:38:08Z Using obfuscation key for /root/.bitcoin/regtest/chainstate: d25c05794bfa954c
+2024-05-10T13:38:08Z [Chainstate [ibd] @ height 0 (0f9188f13cb7b2c71f2a335e3a4fc328bf5beb436012afca590b1a11466e2206)] resized coinsdb cache to 8.0 MiB
+2024-05-10T13:38:08Z [Chainstate [ibd] @ height 0 (0f9188f13cb7b2c71f2a335e3a4fc328bf5beb436012afca590b1a11466e2206)] resized coinstip cache to 384.0 MiB
+2024-05-10T13:38:08Z init message: Verifying blocks…
+2024-05-10T13:38:08Z  block index              22ms
+2024-05-10T13:38:08Z Opening LevelDB in /root/.bitcoin/regtest/indexes/txindex
+2024-05-10T13:38:08Z Opened LevelDB successfully
+2024-05-10T13:38:08Z Using obfuscation key for /root/.bitcoin/regtest/indexes/txindex: 0000000000000000
+2024-05-10T13:38:08Z init message: Loading wallet…
+2024-05-10T13:38:08Z BerkeleyEnvironment::Open: LogDir=/root/.bitcoin/regtest/wallets/database ErrorFile=/root/.bitcoin/regtest/wallets/db.log
+2024-05-10T13:38:09Z [default wallet] Wallet file version = 10500, last client version = 270000
+2024-05-10T13:38:09Z [default wallet] Legacy Wallet Keys: 2001 plaintext, 0 encrypted, 2001 w/ metadata, 2001 total.
+2024-05-10T13:38:09Z [default wallet] Descriptors: 0, Descriptor Keys: 0 plaintext, 0 encrypted, 0 total.
+2024-05-10T13:38:09Z [default wallet] Wallet completed loading in              30ms
+2024-05-10T13:38:09Z [default wallet] keypool added 1 keys (0 internal), size=2000 (1000 internal)
+2024-05-10T13:38:09Z [default wallet] setKeyPool.size() = 2000
+2024-05-10T13:38:09Z [default wallet] mapWallet.size() = 0
+2024-05-10T13:38:09Z [default wallet] m_address_book.size() = 1
+2024-05-10T13:38:09Z Setting NODE_NETWORK on non-prune mode
+2024-05-10T13:38:09Z block tree size = 1
+2024-05-10T13:38:09Z nBestHeight = 0
+2024-05-10T13:38:09Z initload thread start
+2024-05-10T13:38:09Z txindex thread start
+2024-05-10T13:38:09Z txindex is enabled at height 0
+2024-05-10T13:38:09Z txindex thread exit
+2024-05-10T13:38:09Z Loading 0 mempool transactions from disk...
+2024-05-10T13:38:09Z Imported mempool transactions from disk: 0 succeeded, 0 failed, 0 expired, 0 already there, 0 waiting for initial broadcast
+2024-05-10T13:38:09Z Bound to 127.0.0.1:18445
+2024-05-10T13:38:09Z Bound to [::]:18444
+2024-05-10T13:38:09Z Bound to 0.0.0.0:18444
+2024-05-10T13:38:09Z torcontrol thread start
+2024-05-10T13:38:09Z initload thread exit
+2024-05-10T13:38:09Z Loaded 0 addresses from "anchors.dat"
+2024-05-10T13:38:09Z 0 block-relay-only anchors will be tried for connections.
+2024-05-10T13:38:09Z init message: Starting network threads…
+2024-05-10T13:38:09Z init message: Done loading
+2024-05-10T13:38:09Z opencon thread start
+2024-05-10T13:38:09Z dnsseed thread start
+2024-05-10T13:38:09Z Loading addresses from DNS seed dummySeed.invalid.
+2024-05-10T13:38:09Z net thread start
+2024-05-10T13:38:09Z addcon thread start
+2024-05-10T13:38:09Z msghand thread start
+2024-05-10T13:38:09Z 0 addresses found from DNS seeds
+2024-05-10T13:38:09Z dnsseed thread exit
+2024-05-10T13:38:40Z tor: Thread interrupt
+2024-05-10T13:38:40Z Shutdown: In progress...
+2024-05-10T13:38:40Z addcon thread exit
+2024-05-10T13:38:40Z opencon thread exit
+2024-05-10T13:38:40Z torcontrol thread exit
+2024-05-10T13:38:40Z msghand thread exit
+2024-05-10T13:38:40Z net thread exit
+2024-05-10T13:38:40Z DumpAnchors: Flush 0 outbound block-relay-only peer addresses to anchors.dat started
+2024-05-10T13:38:40Z DumpAnchors: Flush 0 outbound block-relay-only peer addresses to anchors.dat completed (0.00s)
+2024-05-10T13:38:40Z scheduler thread exit
+2024-05-10T13:38:40Z Writing 0 unbroadcast transactions to disk.
+2024-05-10T13:38:40Z Dumped mempool: 0.000s to copy, 0.001s to dump
+2024-05-10T13:38:40Z Flushed fee estimates to fee_estimates.dat.
+2024-05-10T13:38:40Z [default wallet] Releasing wallet
+2024-05-10T13:38:40Z Shutdown: done
+
+
+
+
+
+2024-05-10T13:38:42Z Bitcoin Core version v27.0.0 (release build)
+2024-05-10T13:38:42Z Script verification uses 9 additional threads
+2024-05-10T13:38:42Z Using the 'arm_shani(1way,2way)' SHA256 implementation
+2024-05-10T13:38:42Z Default data directory /root/.bitcoin
+2024-05-10T13:38:42Z Using data directory /root/.bitcoin/regtest
+2024-05-10T13:38:42Z Config file: /root/.bitcoin/bitcoin.conf
+2024-05-10T13:38:42Z Config file arg: deprecatedrpc="create_bdb"
+2024-05-10T13:38:42Z Config file arg: fallbackfee="0.0001"
+2024-05-10T13:38:42Z Config file arg: regtest="1"
+2024-05-10T13:38:42Z Config file arg: server="1"
+2024-05-10T13:38:42Z Config file arg: txindex="1"
+2024-05-10T13:38:42Z Config file arg: [regtest] mintxfee="0.001"
+2024-05-10T13:38:42Z Config file arg: [regtest] rpcbind="0.0.0.0"
+2024-05-10T13:38:42Z Config file arg: [regtest] rpcport="8332"
+2024-05-10T13:38:42Z Config file arg: [regtest] txconfirmtarget="1"
+2024-05-10T13:38:42Z Command-line arg: datadir="/root/.bitcoin"
+2024-05-10T13:38:42Z Command-line arg: printtoconsole=""
+2024-05-10T13:38:42Z Using at most 125 automatic connections (1048576 file descriptors available)
+2024-05-10T13:38:42Z Using 16 MiB out of 16 MiB requested for signature cache, able to store 524288 elements
+2024-05-10T13:38:42Z Using 16 MiB out of 16 MiB requested for script execution cache, able to store 524288 elements
+2024-05-10T13:38:42Z scheduler thread start
+2024-05-10T13:38:43Z WARNING: option -rpcbind was ignored because -rpcallowip was not specified, refusing to allow everyone to connect
+2024-05-10T13:38:43Z Binding RPC on address ::1 port 8332
+2024-05-10T13:38:43Z Binding RPC on address 127.0.0.1 port 8332
+2024-05-10T13:38:43Z Using random cookie authentication.
+2024-05-10T13:38:43Z Generated RPC authentication cookie /root/.bitcoin/regtest/.cookie
+2024-05-10T13:38:43Z Starting HTTP server with 4 worker threads
+2024-05-10T13:38:43Z Using wallet directory /root/.bitcoin/regtest/wallets
+2024-05-10T13:38:43Z init message: Verifying wallet(s)…
+2024-05-10T13:38:43Z Using BerkeleyDB version Berkeley DB 4.8.30: (April  9, 2010)
+2024-05-10T13:38:43Z Using wallet /root/.bitcoin/regtest/wallets/wallet.dat
+2024-05-10T13:38:43Z BerkeleyEnvironment::Open: LogDir=/root/.bitcoin/regtest/wallets/database ErrorFile=/root/.bitcoin/regtest/wallets/db.log
+2024-05-10T13:38:43Z Using /16 prefix for IP bucketing
+2024-05-10T13:38:43Z init message: Loading P2P addresses…
+2024-05-10T13:38:43Z Loaded 0 addresses from peers.dat  0ms
+2024-05-10T13:38:43Z init message: Loading banlist…
+2024-05-10T13:38:43Z SetNetworkActive: true
+2024-05-10T13:38:43Z Script verification uses 9 additional threads
+2024-05-10T13:38:43Z Cache configuration:
+2024-05-10T13:38:43Z * Using 2.0 MiB for block index database
+2024-05-10T13:38:43Z * Using 56.0 MiB for transaction index database
+2024-05-10T13:38:43Z * Using 8.0 MiB for chain state database
+2024-05-10T13:38:43Z * Using 384.0 MiB for in-memory UTXO set (plus up to 286.1 MiB of unused mempool space)
+2024-05-10T13:38:43Z init message: Loading block index…
+2024-05-10T13:38:43Z Validating signatures for all blocks.
+2024-05-10T13:38:43Z Setting nMinimumChainWork=0000000000000000000000000000000000000000000000000000000000000000
+2024-05-10T13:38:43Z Opening LevelDB in /root/.bitcoin/regtest/blocks/index
+2024-05-10T13:38:43Z Opened LevelDB successfully
+2024-05-10T13:38:43Z Using obfuscation key for /root/.bitcoin/regtest/blocks/index: 0000000000000000
+2024-05-10T13:38:43Z LoadBlockIndexDB: last block file = 0
+2024-05-10T13:38:43Z LoadBlockIndexDB: last block file info: CBlockFileInfo(blocks=1, size=293, heights=0...0, time=2011-02-02...2011-02-02)
+2024-05-10T13:38:43Z Checking all blk files are present...
+2024-05-10T13:38:43Z Initializing chainstate Chainstate [ibd] @ height -1 (null)
+2024-05-10T13:38:43Z Opening LevelDB in /root/.bitcoin/regtest/chainstate
+2024-05-10T13:38:43Z Opened LevelDB successfully
+2024-05-10T13:38:43Z Using obfuscation key for /root/.bitcoin/regtest/chainstate: d25c05794bfa954c
+2024-05-10T13:38:43Z Loaded best chain: hashBestChain=0f9188f13cb7b2c71f2a335e3a4fc328bf5beb436012afca590b1a11466e2206 height=0 date=2011-02-02T23:16:42Z progress=1.000000
+2024-05-10T13:38:43Z Opening LevelDB in /root/.bitcoin/regtest/chainstate
+2024-05-10T13:38:43Z Opened LevelDB successfully
+2024-05-10T13:38:43Z Using obfuscation key for /root/.bitcoin/regtest/chainstate: d25c05794bfa954c
+2024-05-10T13:38:43Z [Chainstate [ibd] @ height 0 (0f9188f13cb7b2c71f2a335e3a4fc328bf5beb436012afca590b1a11466e2206)] resized coinsdb cache to 8.0 MiB
+2024-05-10T13:38:43Z [Chainstate [ibd] @ height 0 (0f9188f13cb7b2c71f2a335e3a4fc328bf5beb436012afca590b1a11466e2206)] resized coinstip cache to 384.0 MiB
+2024-05-10T13:38:43Z init message: Verifying blocks…
+2024-05-10T13:38:43Z  block index              11ms
+2024-05-10T13:38:43Z Opening LevelDB in /root/.bitcoin/regtest/indexes/txindex
+2024-05-10T13:38:43Z Opened LevelDB successfully
+2024-05-10T13:38:43Z Using obfuscation key for /root/.bitcoin/regtest/indexes/txindex: 0000000000000000
+2024-05-10T13:38:43Z init message: Loading wallet…
+2024-05-10T13:38:43Z BerkeleyEnvironment::Open: LogDir=/root/.bitcoin/regtest/wallets/database ErrorFile=/root/.bitcoin/regtest/wallets/db.log
+2024-05-10T13:38:43Z [default wallet] Wallet file version = 10500, last client version = 270000
+2024-05-10T13:38:43Z [default wallet] Legacy Wallet Keys: 2002 plaintext, 0 encrypted, 2002 w/ metadata, 2002 total.
+2024-05-10T13:38:43Z [default wallet] Descriptors: 0, Descriptor Keys: 0 plaintext, 0 encrypted, 0 total.
+2024-05-10T13:38:43Z [default wallet] Wallet completed loading in              26ms
+2024-05-10T13:38:43Z [default wallet] setKeyPool.size() = 2000
+2024-05-10T13:38:43Z [default wallet] mapWallet.size() = 0
+2024-05-10T13:38:43Z [default wallet] m_address_book.size() = 1
+2024-05-10T13:38:43Z Setting NODE_NETWORK on non-prune mode
+2024-05-10T13:38:43Z block tree size = 1
+2024-05-10T13:38:43Z nBestHeight = 0
+2024-05-10T13:38:43Z initload thread start
+2024-05-10T13:38:43Z Bound to 127.0.0.1:18445
+2024-05-10T13:38:43Z Bound to [::]:18444
+2024-05-10T13:38:43Z Loading 0 mempool transactions from disk...
+2024-05-10T13:38:43Z Imported mempool transactions from disk: 0 succeeded, 0 failed, 0 expired, 0 already there, 0 waiting for initial broadcast
+2024-05-10T13:38:43Z Bound to 0.0.0.0:18444
+2024-05-10T13:38:43Z txindex thread start
+2024-05-10T13:38:43Z txindex is enabled at height 0
+2024-05-10T13:38:43Z txindex thread exit
+2024-05-10T13:38:43Z torcontrol thread start
+2024-05-10T13:38:43Z initload thread exit
+2024-05-10T13:38:43Z Loaded 0 addresses from "anchors.dat"
+2024-05-10T13:38:43Z 0 block-relay-only anchors will be tried for connections.
+2024-05-10T13:38:43Z init message: Starting network threads…
+2024-05-10T13:38:43Z net thread start
+2024-05-10T13:38:43Z init message: Done loading
+2024-05-10T13:38:43Z msghand thread start
+2024-05-10T13:38:43Z addcon thread start
+2024-05-10T13:38:43Z opencon thread start
+2024-05-10T13:38:43Z dnsseed thread start
+2024-05-10T13:38:43Z Loading addresses from DNS seed dummySeed.invalid.
+2024-05-10T13:38:43Z 0 addresses found from DNS seeds
+2024-05-10T13:38:43Z dnsseed thread exit
+2024-05-10T13:39:44Z Adding fixed seeds as 60 seconds have passed and addrman is empty for at least one reachable network
+2024-05-10T13:39:44Z Added 0 fixed seeds from reachable networks.
+2024-05-10T13:46:06Z tor: Thread interrupt
+2024-05-10T13:46:06Z torcontrol thread exit
+2024-05-10T13:46:06Z Shutdown: In progress...
+2024-05-10T13:46:06Z addcon thread exit
+2024-05-10T13:46:06Z opencon thread exit
+2024-05-10T13:46:06Z msghand thread exit
+2024-05-10T13:46:06Z net thread exit
+2024-05-10T13:46:06Z DumpAnchors: Flush 0 outbound block-relay-only peer addresses to anchors.dat started
+2024-05-10T13:46:06Z DumpAnchors: Flush 0 outbound block-relay-only peer addresses to anchors.dat completed (0.00s)
+2024-05-10T13:46:06Z scheduler thread exit
+2024-05-10T13:46:06Z Writing 0 unbroadcast transactions to disk.
+2024-05-10T13:46:06Z Dumped mempool: 0.000s to copy, 0.001s to dump
+2024-05-10T13:46:06Z Flushed fee estimates to fee_estimates.dat.
+2024-05-10T13:46:06Z [default wallet] Releasing wallet
+2024-05-10T13:46:06Z Shutdown: done
+
+
+
+
+
+2024-05-10T13:46:16Z Bitcoin Core version v27.0.0 (release build)
+2024-05-10T13:46:16Z Script verification uses 9 additional threads
+2024-05-10T13:46:16Z Using the 'arm_shani(1way,2way)' SHA256 implementation
+2024-05-10T13:46:16Z Default data directory /root/.bitcoin
+2024-05-10T13:46:16Z Using data directory /root/.bitcoin/regtest
+2024-05-10T13:46:16Z Config file: /root/.bitcoin/bitcoin.conf
+2024-05-10T13:46:16Z Config file arg: deprecatedrpc="create_bdb"
+2024-05-10T13:46:16Z Config file arg: fallbackfee="0.0001"
+2024-05-10T13:46:16Z Config file arg: regtest="1"
+2024-05-10T13:46:16Z Config file arg: server="1"
+2024-05-10T13:46:16Z Config file arg: txindex="1"
+2024-05-10T13:46:16Z Config file arg: [regtest] mintxfee="0.001"
+2024-05-10T13:46:16Z Config file arg: [regtest] rpcbind="0.0.0.0"
+2024-05-10T13:46:16Z Config file arg: [regtest] rpcport="8332"
+2024-05-10T13:46:16Z Config file arg: [regtest] txconfirmtarget="1"
+2024-05-10T13:46:16Z Command-line arg: datadir="/root/.bitcoin"
+2024-05-10T13:46:16Z Command-line arg: printtoconsole=""
+2024-05-10T13:46:16Z Using at most 125 automatic connections (1048576 file descriptors available)
+2024-05-10T13:46:16Z Using 16 MiB out of 16 MiB requested for signature cache, able to store 524288 elements
+2024-05-10T13:46:16Z Using 16 MiB out of 16 MiB requested for script execution cache, able to store 524288 elements
+2024-05-10T13:46:16Z scheduler thread start
+2024-05-10T13:46:16Z WARNING: option -rpcbind was ignored because -rpcallowip was not specified, refusing to allow everyone to connect
+2024-05-10T13:46:16Z Binding RPC on address ::1 port 8332
+2024-05-10T13:46:16Z Binding RPC on address 127.0.0.1 port 8332
+2024-05-10T13:46:16Z Using random cookie authentication.
+2024-05-10T13:46:16Z Generated RPC authentication cookie /root/.bitcoin/regtest/.cookie
+2024-05-10T13:46:16Z Starting HTTP server with 4 worker threads
+2024-05-10T13:46:16Z Using wallet directory /root/.bitcoin/regtest/wallets
+2024-05-10T13:46:16Z init message: Verifying wallet(s)…
+2024-05-10T13:46:16Z Using BerkeleyDB version Berkeley DB 4.8.30: (April  9, 2010)
+2024-05-10T13:46:16Z Using wallet /root/.bitcoin/regtest/wallets/wallet.dat
+2024-05-10T13:46:16Z BerkeleyEnvironment::Open: LogDir=/root/.bitcoin/regtest/wallets/database ErrorFile=/root/.bitcoin/regtest/wallets/db.log
+2024-05-10T13:46:16Z Using /16 prefix for IP bucketing
+2024-05-10T13:46:16Z init message: Loading P2P addresses…
+2024-05-10T13:46:16Z Loaded 0 addresses from peers.dat  0ms
+2024-05-10T13:46:16Z init message: Loading banlist…
+2024-05-10T13:46:16Z SetNetworkActive: true
+2024-05-10T13:46:16Z Script verification uses 9 additional threads
+2024-05-10T13:46:16Z Cache configuration:
+2024-05-10T13:46:16Z * Using 2.0 MiB for block index database
+2024-05-10T13:46:16Z * Using 56.0 MiB for transaction index database
+2024-05-10T13:46:16Z * Using 8.0 MiB for chain state database
+2024-05-10T13:46:16Z * Using 384.0 MiB for in-memory UTXO set (plus up to 286.1 MiB of unused mempool space)
+2024-05-10T13:46:16Z init message: Loading block index…
+2024-05-10T13:46:16Z Validating signatures for all blocks.
+2024-05-10T13:46:16Z Setting nMinimumChainWork=0000000000000000000000000000000000000000000000000000000000000000
+2024-05-10T13:46:16Z Opening LevelDB in /root/.bitcoin/regtest/blocks/index
+2024-05-10T13:46:16Z Opened LevelDB successfully
+2024-05-10T13:46:16Z Using obfuscation key for /root/.bitcoin/regtest/blocks/index: 0000000000000000
+2024-05-10T13:46:16Z LoadBlockIndexDB: last block file = 0
+2024-05-10T13:46:16Z LoadBlockIndexDB: last block file info: CBlockFileInfo(blocks=1, size=293, heights=0...0, time=2011-02-02...2011-02-02)
+2024-05-10T13:46:16Z Checking all blk files are present...
+2024-05-10T13:46:16Z Initializing chainstate Chainstate [ibd] @ height -1 (null)
+2024-05-10T13:46:16Z Opening LevelDB in /root/.bitcoin/regtest/chainstate
+2024-05-10T13:46:16Z Opened LevelDB successfully
+2024-05-10T13:46:16Z Using obfuscation key for /root/.bitcoin/regtest/chainstate: d25c05794bfa954c
+2024-05-10T13:46:16Z Loaded best chain: hashBestChain=0f9188f13cb7b2c71f2a335e3a4fc328bf5beb436012afca590b1a11466e2206 height=0 date=2011-02-02T23:16:42Z progress=1.000000
+2024-05-10T13:46:16Z Opening LevelDB in /root/.bitcoin/regtest/chainstate
+2024-05-10T13:46:16Z Opened LevelDB successfully
+2024-05-10T13:46:16Z Using obfuscation key for /root/.bitcoin/regtest/chainstate: d25c05794bfa954c
+2024-05-10T13:46:16Z [Chainstate [ibd] @ height 0 (0f9188f13cb7b2c71f2a335e3a4fc328bf5beb436012afca590b1a11466e2206)] resized coinsdb cache to 8.0 MiB
+2024-05-10T13:46:16Z [Chainstate [ibd] @ height 0 (0f9188f13cb7b2c71f2a335e3a4fc328bf5beb436012afca590b1a11466e2206)] resized coinstip cache to 384.0 MiB
+2024-05-10T13:46:16Z init message: Verifying blocks…
+2024-05-10T13:46:16Z  block index              12ms
+2024-05-10T13:46:16Z Opening LevelDB in /root/.bitcoin/regtest/indexes/txindex
+2024-05-10T13:46:16Z Opened LevelDB successfully
+2024-05-10T13:46:16Z Using obfuscation key for /root/.bitcoin/regtest/indexes/txindex: 0000000000000000
+2024-05-10T13:46:16Z init message: Loading wallet…
+2024-05-10T13:46:16Z BerkeleyEnvironment::Open: LogDir=/root/.bitcoin/regtest/wallets/database ErrorFile=/root/.bitcoin/regtest/wallets/db.log
+2024-05-10T13:46:16Z [default wallet] Wallet file version = 10500, last client version = 270000
+2024-05-10T13:46:16Z [default wallet] Legacy Wallet Keys: 2002 plaintext, 0 encrypted, 2002 w/ metadata, 2002 total.
+2024-05-10T13:46:16Z [default wallet] Descriptors: 0, Descriptor Keys: 0 plaintext, 0 encrypted, 0 total.
+2024-05-10T13:46:16Z [default wallet] Wallet completed loading in              23ms
+2024-05-10T13:46:16Z [default wallet] setKeyPool.size() = 2000
+2024-05-10T13:46:16Z [default wallet] mapWallet.size() = 0
+2024-05-10T13:46:16Z [default wallet] m_address_book.size() = 1
+2024-05-10T13:46:16Z Setting NODE_NETWORK on non-prune mode
+2024-05-10T13:46:16Z block tree size = 1
+2024-05-10T13:46:16Z nBestHeight = 0
+2024-05-10T13:46:16Z initload thread start
+2024-05-10T13:46:16Z torcontrol thread start
+2024-05-10T13:46:16Z Bound to 127.0.0.1:18445
+2024-05-10T13:46:16Z Bound to [::]:18444
+2024-05-10T13:46:16Z txindex thread start
+2024-05-10T13:46:16Z txindex is enabled at height 0
+2024-05-10T13:46:16Z txindex thread exit
+2024-05-10T13:46:16Z Loading 0 mempool transactions from disk...
+2024-05-10T13:46:16Z Imported mempool transactions from disk: 0 succeeded, 0 failed, 0 expired, 0 already there, 0 waiting for initial broadcast
+2024-05-10T13:46:16Z Bound to 0.0.0.0:18444
+2024-05-10T13:46:16Z initload thread exit
+2024-05-10T13:46:16Z Loaded 0 addresses from "anchors.dat"
+2024-05-10T13:46:16Z 0 block-relay-only anchors will be tried for connections.
+2024-05-10T13:46:16Z init message: Starting network threads…
+2024-05-10T13:46:16Z net thread start
+2024-05-10T13:46:16Z dnsseed thread start
+2024-05-10T13:46:16Z Loading addresses from DNS seed dummySeed.invalid.
+2024-05-10T13:46:16Z opencon thread start
+2024-05-10T13:46:16Z addcon thread start
+2024-05-10T13:46:16Z msghand thread start
+2024-05-10T13:46:16Z init message: Done loading
+2024-05-10T13:46:16Z 0 addresses found from DNS seeds
+2024-05-10T13:46:16Z dnsseed thread exit
+2024-05-10T13:47:17Z Adding fixed seeds as 60 seconds have passed and addrman is empty for at least one reachable network
+2024-05-10T13:47:17Z Added 0 fixed seeds from reachable networks.
+2024-05-10T13:50:33Z [default wallet] keypool reserve 2
+2024-05-10T13:50:33Z [default wallet] keypool keep 2
+2024-05-10T13:50:33Z CreateNewBlock(): block weight: 884 txs: 0 fees: 0 sigops 400
+2024-05-10T13:50:33Z Leaving InitialBlockDownload (latching to false)
+2024-05-10T13:50:33Z UpdateTip: new best=71382ead0f2cef2b34666bb9a795d3b3c189daf38a6bacedd30ab4bf7a6c8f14 height=1 version=0x20000000 log2_work=2.000000 tx=2 date='2024-05-10T13:50:33Z' progress=1.000000 cache=0.3MiB(1txo)
+2024-05-10T13:50:33Z [default wallet] AddToWallet e028614b724b54571bf809b56b7eeb9b700986c98deb6ab93ff7015a2f1778cb  new Confirmed (block=71382ead0f2cef2b34666bb9a795d3b3c189daf38a6bacedd30ab4bf7a6c8f14, height=1, index=0)
+2024-05-10T13:52:17Z [default wallet] keypool added 1 keys (0 internal), size=2000 (1000 internal)
+2024-05-10T13:52:17Z [default wallet] keypool reserve 3
+2024-05-10T13:52:17Z [default wallet] keypool keep 3
+2024-05-10T13:52:17Z CreateNewBlock(): block weight: 884 txs: 0 fees: 0 sigops 400
+2024-05-10T13:52:17Z Saw new header hash=04800cb67f199be67e6261640a1c787a1be07ed830a1387fbdd542ec165bbc75 height=2
+2024-05-10T13:52:17Z UpdateTip: new best=04800cb67f199be67e6261640a1c787a1be07ed830a1387fbdd542ec165bbc75 height=2 version=0x20000000 log2_work=2.584963 tx=3 date='2024-05-10T13:52:17Z' progress=1.000000 cache=0.3MiB(2txo)
+2024-05-10T13:52:17Z CreateNewBlock(): block weight: 884 txs: 0 fees: 0 sigops 400
+2024-05-10T13:52:17Z Saw new header hash=1d18d697fa39c1199b2955056c8a7deebb0c2389f226e1ad23c1428015254b55 height=3
+2024-05-10T13:52:17Z UpdateTip: new best=1d18d697fa39c1199b2955056c8a7deebb0c2389f226e1ad23c1428015254b55 height=3 version=0x20000000 log2_work=3.000000 tx=4 date='2024-05-10T13:52:17Z' progress=1.000000 cache=0.3MiB(3txo)
+2024-05-10T13:52:17Z CreateNewBlock(): block weight: 884 txs: 0 fees: 0 sigops 400
+2024-05-10T13:52:17Z Saw new header hash=62c352d141dc1f9091e7774e33f02f9a7252646bc989c045d946d9cde9801f3a height=4
+2024-05-10T13:52:17Z UpdateTip: new best=62c352d141dc1f9091e7774e33f02f9a7252646bc989c045d946d9cde9801f3a height=4 version=0x20000000 log2_work=3.321928 tx=5 date='2024-05-10T13:52:18Z' progress=1.000000 cache=0.3MiB(4txo)
+2024-05-10T13:52:17Z CreateNewBlock(): block weight: 884 txs: 0 fees: 0 sigops 400
+2024-05-10T13:52:17Z Saw new header hash=6a541b42f7f144b1c190ef79f9c16d612c69aaca240b7290d0044d3600f0d830 height=5
+2024-05-10T13:52:17Z UpdateTip: new best=6a541b42f7f144b1c190ef79f9c16d612c69aaca240b7290d0044d3600f0d830 height=5 version=0x20000000 log2_work=3.584963 tx=6 date='2024-05-10T13:52:18Z' progress=1.000000 cache=0.3MiB(5txo)
+2024-05-10T13:52:17Z CreateNewBlock(): block weight: 884 txs: 0 fees: 0 sigops 400
+2024-05-10T13:52:17Z Saw new header hash=322ac7b2a2cbd147f8f1165ffab820cd5b6d10227e8c69d1987de12bf0dc7a53 height=6
+2024-05-10T13:52:17Z UpdateTip: new best=322ac7b2a2cbd147f8f1165ffab820cd5b6d10227e8c69d1987de12bf0dc7a53 height=6 version=0x20000000 log2_work=3.807355 tx=7 date='2024-05-10T13:52:18Z' progress=1.000000 cache=0.3MiB(6txo)
+2024-05-10T13:52:17Z CreateNewBlock(): block weight: 884 txs: 0 fees: 0 sigops 400
+2024-05-10T13:52:17Z Saw new header hash=3f1089e4012083aef53dd80e4c1e2a3d49dd647ace07d9f6b90e871cec430d79 height=7
+2024-05-10T13:52:17Z [default wallet] AddToWallet 4267b7975c588ddf77e663c31c90ca84dc09368d14847c8fbd88157878220cc8  new Confirmed (block=04800cb67f199be67e6261640a1c787a1be07ed830a1387fbdd542ec165bbc75, height=2, index=0)
+2024-05-10T13:52:17Z [default wallet] AddToWallet 326682ffd7ce5d4f4b097d033fb17d0bb5484f13812657e266cd9b89edcbf07c  new Confirmed (block=1d18d697fa39c1199b2955056c8a7deebb0c2389f226e1ad23c1428015254b55, height=3, index=0)
+2024-05-10T13:52:17Z [default wallet] AddToWallet b413a9bdefb8f76c041c34f84e44ab36ae611ae0d8a167a7ed34a28224726765  new Confirmed (block=62c352d141dc1f9091e7774e33f02f9a7252646bc989c045d946d9cde9801f3a, height=4, index=0)
+2024-05-10T13:52:17Z [default wallet] AddToWallet 0ded21e10622b870b6d2a227772920eed477dae73cf43b750bb7fb851cab33d8  new Confirmed (block=6a541b42f7f144b1c190ef79f9c16d612c69aaca240b7290d0044d3600f0d830, height=5, index=0)
+2024-05-10T13:52:17Z [default wallet] AddToWallet b341df33262d757d09557aedee0a16c8e1f2c16f77ec17b156bc5ea7c4a6488d  new Confirmed (block=322ac7b2a2cbd147f8f1165ffab820cd5b6d10227e8c69d1987de12bf0dc7a53, height=6, index=0)
+2024-05-10T13:52:17Z UpdateTip: new best=3f1089e4012083aef53dd80e4c1e2a3d49dd647ace07d9f6b90e871cec430d79 height=7 version=0x20000000 log2_work=4.000000 tx=8 date='2024-05-10T13:52:18Z' progress=1.000000 cache=0.3MiB(7txo)
+2024-05-10T13:52:17Z CreateNewBlock(): block weight: 884 txs: 0 fees: 0 sigops 400
+2024-05-10T13:52:17Z Saw new header hash=2d18464ab7e7da9afce1834e2db598605de343ba4ba87ddf6a66e9094ae549b9 height=8
+2024-05-10T13:52:17Z UpdateTip: new best=2d18464ab7e7da9afce1834e2db598605de343ba4ba87ddf6a66e9094ae549b9 height=8 version=0x20000000 log2_work=4.169925 tx=9 date='2024-05-10T13:52:19Z' progress=1.000000 cache=0.3MiB(8txo)
+2024-05-10T13:52:17Z CreateNewBlock(): block weight: 884 txs: 0 fees: 0 sigops 400
+2024-05-10T13:52:17Z Saw new header hash=0cb07ada27feb10fbf3ecdaf4b470dafe9b5448d193028c6340cc6b38b44fa5d height=9
+2024-05-10T13:52:17Z UpdateTip: new best=0cb07ada27feb10fbf3ecdaf4b470dafe9b5448d193028c6340cc6b38b44fa5d height=9 version=0x20000000 log2_work=4.321928 tx=10 date='2024-05-10T13:52:19Z' progress=1.000000 cache=0.3MiB(9txo)
+2024-05-10T13:52:17Z CreateNewBlock(): block weight: 884 txs: 0 fees: 0 sigops 400
+2024-05-10T13:52:17Z Saw new header hash=5960b1dd6695408258547efca769a4e7f9f06ba769ebeb128f1a8d07e6bc8c9f height=10
+2024-05-10T13:52:17Z UpdateTip: new best=5960b1dd6695408258547efca769a4e7f9f06ba769ebeb128f1a8d07e6bc8c9f height=10 version=0x20000000 log2_work=4.459432 tx=11 date='2024-05-10T13:52:19Z' progress=1.000000 cache=0.3MiB(10txo)
+2024-05-10T13:52:17Z CreateNewBlock(): block weight: 884 txs: 0 fees: 0 sigops 400
+2024-05-10T13:52:17Z Saw new header hash=154f68b68fe0664d646eda4caa6e1ce1ea1345441498106bc04cf27829a53f04 height=11
+2024-05-10T13:52:17Z UpdateTip: new best=154f68b68fe0664d646eda4caa6e1ce1ea1345441498106bc04cf27829a53f04 height=11 version=0x20000000 log2_work=4.584963 tx=12 date='2024-05-10T13:52:19Z' progress=1.000000 cache=0.3MiB(11txo)
+2024-05-10T13:52:17Z [default wallet] AddToWallet dab4f469a19def8b75c77bd9b4f9b99eefce7fc579b00959333640c7d653dddf  new Confirmed (block=3f1089e4012083aef53dd80e4c1e2a3d49dd647ace07d9f6b90e871cec430d79, height=7, index=0)
+2024-05-10T13:52:17Z CreateNewBlock(): block weight: 884 txs: 0 fees: 0 sigops 400
+2024-05-10T13:52:17Z Saw new header hash=4258d41d82b27f4912d1fed05d82e69fd46ecde4bc558e394aef804f1c41e195 height=12
+2024-05-10T13:52:17Z [default wallet] AddToWallet 9a82989e5d763ab48205166551f26578445c15d95ced66714da575a006cc2cf1  new Confirmed (block=2d18464ab7e7da9afce1834e2db598605de343ba4ba87ddf6a66e9094ae549b9, height=8, index=0)
+2024-05-10T13:52:17Z [default wallet] AddToWallet 62edaccb3342fedd3fbb6b38c34f004842eb13cbbaea910ecf55bcf7ac179794  new Confirmed (block=0cb07ada27feb10fbf3ecdaf4b470dafe9b5448d193028c6340cc6b38b44fa5d, height=9, index=0)
+2024-05-10T13:52:17Z [default wallet] AddToWallet b562eb7cfaccbfb5fba4b2d54ae1e90aa423057be2b3eecc3051d1285e639326  new Confirmed (block=5960b1dd6695408258547efca769a4e7f9f06ba769ebeb128f1a8d07e6bc8c9f, height=10, index=0)
+2024-05-10T13:52:17Z [default wallet] AddToWallet e31a1747a3d0d34df80b644d561a0771c547ba276ddfa75cd53309d03d42363c  new Confirmed (block=154f68b68fe0664d646eda4caa6e1ce1ea1345441498106bc04cf27829a53f04, height=11, index=0)
+2024-05-10T13:52:17Z UpdateTip: new best=4258d41d82b27f4912d1fed05d82e69fd46ecde4bc558e394aef804f1c41e195 height=12 version=0x20000000 log2_work=4.700440 tx=13 date='2024-05-10T13:52:19Z' progress=1.000000 cache=0.3MiB(12txo)
+2024-05-10T13:52:17Z CreateNewBlock(): block weight: 884 txs: 0 fees: 0 sigops 400
+2024-05-10T13:52:17Z Saw new header hash=5d6050fd7376ac7b34c02e058e2c6f5861b1592eec2d3297dcd909e301ec4795 height=13
+2024-05-10T13:52:17Z UpdateTip: new best=5d6050fd7376ac7b34c02e058e2c6f5861b1592eec2d3297dcd909e301ec4795 height=13 version=0x20000000 log2_work=4.807355 tx=14 date='2024-05-10T13:52:19Z' progress=1.000000 cache=0.3MiB(13txo)
+2024-05-10T13:52:17Z CreateNewBlock(): block weight: 884 txs: 0 fees: 0 sigops 400
+2024-05-10T13:52:17Z Saw new header hash=00af813cadda8b5da99f235347f6a526f07d39b9e77f0af5737c557bff16d027 height=14
+2024-05-10T13:52:17Z UpdateTip: new best=00af813cadda8b5da99f235347f6a526f07d39b9e77f0af5737c557bff16d027 height=14 version=0x20000000 log2_work=4.906891 tx=15 date='2024-05-10T13:52:20Z' progress=1.000000 cache=0.3MiB(14txo)
+2024-05-10T13:52:17Z CreateNewBlock(): block weight: 884 txs: 0 fees: 0 sigops 400
+2024-05-10T13:52:17Z Saw new header hash=2b09ab49066a531c75834be414755b83cb437e52680e083f4f3cfb7bbfb4bd5d height=15
+2024-05-10T13:52:17Z UpdateTip: new best=2b09ab49066a531c75834be414755b83cb437e52680e083f4f3cfb7bbfb4bd5d height=15 version=0x20000000 log2_work=5.000000 tx=16 date='2024-05-10T13:52:20Z' progress=1.000000 cache=0.3MiB(15txo)
+2024-05-10T13:52:17Z CreateNewBlock(): block weight: 884 txs: 0 fees: 0 sigops 400
+2024-05-10T13:52:17Z Saw new header hash=66ea0e2ace0741861ebcb949b91d68ff3cc827056119860c4950d157144551fe height=16
+2024-05-10T13:52:17Z UpdateTip: new best=66ea0e2ace0741861ebcb949b91d68ff3cc827056119860c4950d157144551fe height=16 version=0x20000000 log2_work=5.087463 tx=17 date='2024-05-10T13:52:20Z' progress=1.000000 cache=0.3MiB(16txo)
+2024-05-10T13:52:17Z CreateNewBlock(): block weight: 888 txs: 0 fees: 0 sigops 400
+2024-05-10T13:52:17Z Saw new header hash=4b2eff67688530a20c066bfc1291a3cae0e4817c443124c10384bbd1e75fad35 height=17
+2024-05-10T13:52:17Z [default wallet] AddToWallet 4948779a6fcc38b29346d28d3b6220f4a1d8d8b698b770d9bda5107983335486  new Confirmed (block=4258d41d82b27f4912d1fed05d82e69fd46ecde4bc558e394aef804f1c41e195, height=12, index=0)
+2024-05-10T13:52:17Z [default wallet] AddToWallet fc6aed23d5cccca6342a787b450fe55b6d3068534a667c22bbac2ebd32c7d0bb  new Confirmed (block=5d6050fd7376ac7b34c02e058e2c6f5861b1592eec2d3297dcd909e301ec4795, height=13, index=0)
+2024-05-10T13:52:17Z [default wallet] AddToWallet 1a92a46e8c6e5c0d986bf4126c62e20df25010f3360a03acb38f4aaa8ca97d71  new Confirmed (block=00af813cadda8b5da99f235347f6a526f07d39b9e77f0af5737c557bff16d027, height=14, index=0)
+2024-05-10T13:52:17Z [default wallet] AddToWallet b27b9ddab4e7d4ba6a0d36759a410ef5c55964d1788a6ccf81456ee8de390aff  new Confirmed (block=2b09ab49066a531c75834be414755b83cb437e52680e083f4f3cfb7bbfb4bd5d, height=15, index=0)
+2024-05-10T13:52:17Z [default wallet] AddToWallet 8241164142fc278fd9c6c18843877d5f5647527d1f7c9eb3ef809a64b0ebe55f  new Confirmed (block=66ea0e2ace0741861ebcb949b91d68ff3cc827056119860c4950d157144551fe, height=16, index=0)
+2024-05-10T13:52:17Z UpdateTip: new best=4b2eff67688530a20c066bfc1291a3cae0e4817c443124c10384bbd1e75fad35 height=17 version=0x20000000 log2_work=5.169925 tx=18 date='2024-05-10T13:52:20Z' progress=1.000000 cache=0.3MiB(17txo)
+2024-05-10T13:52:17Z CreateNewBlock(): block weight: 888 txs: 0 fees: 0 sigops 400
+2024-05-10T13:52:17Z Saw new header hash=44848a8009925ea8542bf6036ef84c3d16c8e3fbecd52bb2c1902c815e46f4b6 height=18
+2024-05-10T13:52:17Z UpdateTip: new best=44848a8009925ea8542bf6036ef84c3d16c8e3fbecd52bb2c1902c815e46f4b6 height=18 version=0x20000000 log2_work=5.247928 tx=19 date='2024-05-10T13:52:20Z' progress=1.000000 cache=0.3MiB(18txo)
+2024-05-10T13:52:17Z CreateNewBlock(): block weight: 888 txs: 0 fees: 0 sigops 400
+2024-05-10T13:52:17Z Saw new header hash=410f63794241133e8c838a2e889a87e87846dcf3d3daca6e1040a68f5ad8521b height=19
+2024-05-10T13:52:17Z UpdateTip: new best=410f63794241133e8c838a2e889a87e87846dcf3d3daca6e1040a68f5ad8521b height=19 version=0x20000000 log2_work=5.321928 tx=20 date='2024-05-10T13:52:20Z' progress=1.000000 cache=0.3MiB(19txo)
+2024-05-10T13:52:17Z CreateNewBlock(): block weight: 888 txs: 0 fees: 0 sigops 400
+2024-05-10T13:52:17Z Saw new header hash=69990425747617ec3750ad2c21b583df481ac4dabb8c8d384c7992d0f7a8196d height=20
+2024-05-10T13:52:17Z UpdateTip: new best=69990425747617ec3750ad2c21b583df481ac4dabb8c8d384c7992d0f7a8196d height=20 version=0x20000000 log2_work=5.392317 tx=21 date='2024-05-10T13:52:21Z' progress=1.000000 cache=0.3MiB(20txo)
+2024-05-10T13:52:17Z CreateNewBlock(): block weight: 888 txs: 0 fees: 0 sigops 400
+2024-05-10T13:52:17Z Saw new header hash=146466803ee2c8d3700e0b18cc27c1ec41fd9ab6e2a6dbb64cb90680baaaafca height=21
+2024-05-10T13:52:17Z UpdateTip: new best=146466803ee2c8d3700e0b18cc27c1ec41fd9ab6e2a6dbb64cb90680baaaafca height=21 version=0x20000000 log2_work=5.459432 tx=22 date='2024-05-10T13:52:21Z' progress=1.000000 cache=0.3MiB(21txo)
+2024-05-10T13:52:17Z CreateNewBlock(): block weight: 888 txs: 0 fees: 0 sigops 400
+2024-05-10T13:52:17Z Saw new header hash=10760a9d31932b666af489e55a6527d771247307910a9b46f99217b7abf7dc9e height=22
+2024-05-10T13:52:17Z [default wallet] AddToWallet bcc4514d8eae474d662d058626c3bc537046e7964603adb70771d3a5b313ebc5  new Confirmed (block=4b2eff67688530a20c066bfc1291a3cae0e4817c443124c10384bbd1e75fad35, height=17, index=0)
+2024-05-10T13:52:17Z [default wallet] AddToWallet 67ed5ad3eeb00fdf2728f309d4c4171d6a76c59de3151858e229598861726be6  new Confirmed (block=44848a8009925ea8542bf6036ef84c3d16c8e3fbecd52bb2c1902c815e46f4b6, height=18, index=0)
+2024-05-10T13:52:17Z [default wallet] AddToWallet ce0adec6c1b1909b5206f8ca213700b7f9e98d8e72670e6ace6506ae9184975d  new Confirmed (block=410f63794241133e8c838a2e889a87e87846dcf3d3daca6e1040a68f5ad8521b, height=19, index=0)
+2024-05-10T13:52:17Z [default wallet] AddToWallet 70636b89b7bc899de4ef3dbdcf4be5168d386c3f3f6928bf68e1dd49706fc83f  new Confirmed (block=69990425747617ec3750ad2c21b583df481ac4dabb8c8d384c7992d0f7a8196d, height=20, index=0)
+2024-05-10T13:52:17Z [default wallet] AddToWallet 8f87d22ed4fb64077947549a344e1e0aa35f2382a5e0d95aa43e4e6f257c06b2  new Confirmed (block=146466803ee2c8d3700e0b18cc27c1ec41fd9ab6e2a6dbb64cb90680baaaafca, height=21, index=0)
+2024-05-10T13:52:17Z UpdateTip: new best=10760a9d31932b666af489e55a6527d771247307910a9b46f99217b7abf7dc9e height=22 version=0x20000000 log2_work=5.523562 tx=23 date='2024-05-10T13:52:21Z' progress=1.000000 cache=0.3MiB(22txo)
+2024-05-10T13:52:17Z CreateNewBlock(): block weight: 888 txs: 0 fees: 0 sigops 400
+2024-05-10T13:52:17Z Saw new header hash=6fa3d5ebf24f98913be704e60096a4c51d352b067029acdee0292ee3113cdfac height=23
+2024-05-10T13:52:17Z UpdateTip: new best=6fa3d5ebf24f98913be704e60096a4c51d352b067029acdee0292ee3113cdfac height=23 version=0x20000000 log2_work=5.584963 tx=24 date='2024-05-10T13:52:21Z' progress=1.000000 cache=0.3MiB(23txo)
+2024-05-10T13:52:17Z CreateNewBlock(): block weight: 888 txs: 0 fees: 0 sigops 400
+2024-05-10T13:52:17Z Saw new header hash=46b834068fa80f76910bba07f2166328b599d9d80bc0195902487c4f97053d38 height=24
+2024-05-10T13:52:17Z UpdateTip: new best=46b834068fa80f76910bba07f2166328b599d9d80bc0195902487c4f97053d38 height=24 version=0x20000000 log2_work=5.643856 tx=25 date='2024-05-10T13:52:21Z' progress=1.000000 cache=0.3MiB(24txo)
+2024-05-10T13:52:17Z CreateNewBlock(): block weight: 888 txs: 0 fees: 0 sigops 400
+2024-05-10T13:52:17Z Saw new header hash=563f564d1d89331363bd743e89db25a7e7afd7e79fbf84adad64626f5c87e394 height=25
+2024-05-10T13:52:17Z UpdateTip: new best=563f564d1d89331363bd743e89db25a7e7afd7e79fbf84adad64626f5c87e394 height=25 version=0x20000000 log2_work=5.700440 tx=26 date='2024-05-10T13:52:21Z' progress=1.000000 cache=0.3MiB(25txo)
+2024-05-10T13:52:17Z CreateNewBlock(): block weight: 888 txs: 0 fees: 0 sigops 400
+2024-05-10T13:52:17Z Saw new header hash=40e180fa94fdb450744a41e88aee808db4dc27f3c84a725d2f02f6c0b60c6eaa height=26
+2024-05-10T13:52:17Z UpdateTip: new best=40e180fa94fdb450744a41e88aee808db4dc27f3c84a725d2f02f6c0b60c6eaa height=26 version=0x20000000 log2_work=5.754888 tx=27 date='2024-05-10T13:52:22Z' progress=1.000000 cache=0.3MiB(26txo)
+2024-05-10T13:52:17Z CreateNewBlock(): block weight: 888 txs: 0 fees: 0 sigops 400
+2024-05-10T13:52:17Z Saw new header hash=25e889b7f157b07d120aa672a08cc5da7aba9bd981b3fb96ae7342cfeeba8c6e height=27
+2024-05-10T13:52:17Z [default wallet] AddToWallet 266edd0a47eabaa7b106af50e22ccbf98d824864750ed8a610febd518197a70b  new Confirmed (block=10760a9d31932b666af489e55a6527d771247307910a9b46f99217b7abf7dc9e, height=22, index=0)
+2024-05-10T13:52:17Z [default wallet] AddToWallet 3fe88b539d7053386a30337cc3b5288fcc172735dbaf3e951f9cc5a0d49524a0  new Confirmed (block=6fa3d5ebf24f98913be704e60096a4c51d352b067029acdee0292ee3113cdfac, height=23, index=0)
+2024-05-10T13:52:17Z [default wallet] AddToWallet a99e7ba45771bbef52d099c9aab6f5c70d31ae07c987d58bc85e3ea661da75c1  new Confirmed (block=46b834068fa80f76910bba07f2166328b599d9d80bc0195902487c4f97053d38, height=24, index=0)
+2024-05-10T13:52:17Z [default wallet] AddToWallet a5a1755837898b1649131fe5e87e7772f179ff4016e5ec9b31a8344743954b56  new Confirmed (block=563f564d1d89331363bd743e89db25a7e7afd7e79fbf84adad64626f5c87e394, height=25, index=0)
+2024-05-10T13:52:17Z [default wallet] AddToWallet 8889ab2579d9a308988f5f8689f82f20e871ecfa9302af2debe0d1eb6877283f  new Confirmed (block=40e180fa94fdb450744a41e88aee808db4dc27f3c84a725d2f02f6c0b60c6eaa, height=26, index=0)
+2024-05-10T13:52:17Z UpdateTip: new best=25e889b7f157b07d120aa672a08cc5da7aba9bd981b3fb96ae7342cfeeba8c6e height=27 version=0x20000000 log2_work=5.807355 tx=28 date='2024-05-10T13:52:22Z' progress=1.000000 cache=0.3MiB(27txo)
+2024-05-10T13:52:17Z CreateNewBlock(): block weight: 888 txs: 0 fees: 0 sigops 400
+2024-05-10T13:52:17Z Saw new header hash=6ff5b2581a6cd1bc4ff9895fcc36d93b272c807b696ff9681f2ad7dadf585f28 height=28
+2024-05-10T13:52:17Z UpdateTip: new best=6ff5b2581a6cd1bc4ff9895fcc36d93b272c807b696ff9681f2ad7dadf585f28 height=28 version=0x20000000 log2_work=5.857981 tx=29 date='2024-05-10T13:52:22Z' progress=1.000000 cache=0.3MiB(28txo)
+2024-05-10T13:52:17Z CreateNewBlock(): block weight: 888 txs: 0 fees: 0 sigops 400
+2024-05-10T13:52:17Z Saw new header hash=780d004420a774177d2a285351cb14f477a0a31d8fd8e0fb5934e5374129a529 height=29
+2024-05-10T13:52:17Z UpdateTip: new best=780d004420a774177d2a285351cb14f477a0a31d8fd8e0fb5934e5374129a529 height=29 version=0x20000000 log2_work=5.906891 tx=30 date='2024-05-10T13:52:22Z' progress=1.000000 cache=0.3MiB(29txo)
+2024-05-10T13:52:17Z CreateNewBlock(): block weight: 888 txs: 0 fees: 0 sigops 400
+2024-05-10T13:52:17Z Saw new header hash=0b29d88b8982f53540717449e2b73391e8cac07fa203e9f3555b4da740fb2eb5 height=30
+2024-05-10T13:52:17Z UpdateTip: new best=0b29d88b8982f53540717449e2b73391e8cac07fa203e9f3555b4da740fb2eb5 height=30 version=0x20000000 log2_work=5.954196 tx=31 date='2024-05-10T13:52:22Z' progress=1.000000 cache=0.3MiB(30txo)
+2024-05-10T13:52:17Z [default wallet] AddToWallet dc4175689ac9db9f7b09ea0b3f524a35853f785f1dd04ae1a02679e2f95155fc  new Confirmed (block=25e889b7f157b07d120aa672a08cc5da7aba9bd981b3fb96ae7342cfeeba8c6e, height=27, index=0)
+2024-05-10T13:52:17Z CreateNewBlock(): block weight: 888 txs: 0 fees: 0 sigops 400
+2024-05-10T13:52:17Z Saw new header hash=4942242ae5b7c0be38f4b814eb3769b2a5a014a667107cf4c14d66cd99631227 height=31
+2024-05-10T13:52:17Z UpdateTip: new best=4942242ae5b7c0be38f4b814eb3769b2a5a014a667107cf4c14d66cd99631227 height=31 version=0x20000000 log2_work=6.000000 tx=32 date='2024-05-10T13:52:22Z' progress=1.000000 cache=0.3MiB(31txo)
+2024-05-10T13:52:17Z CreateNewBlock(): block weight: 888 txs: 0 fees: 0 sigops 400
+2024-05-10T13:52:17Z Saw new header hash=33f08ecdcf0846857c17afd1af9bc411d9ebe687707ffee738ab81928c04d6d5 height=32
+2024-05-10T13:52:17Z UpdateTip: new best=33f08ecdcf0846857c17afd1af9bc411d9ebe687707ffee738ab81928c04d6d5 height=32 version=0x20000000 log2_work=6.044394 tx=33 date='2024-05-10T13:52:23Z' progress=1.000000 cache=0.3MiB(32txo)
+2024-05-10T13:52:17Z CreateNewBlock(): block weight: 888 txs: 0 fees: 0 sigops 400
+2024-05-10T13:52:17Z Saw new header hash=401cf2f2de7c5956f0cd741ebf5c2776fc916f3f98d545d249a0ec9f29dfc1ad height=33
+2024-05-10T13:52:17Z [default wallet] AddToWallet f80bf2d2313d98c59d4d4fdc9017320ebe61ae4a2be5a71d4b662a34840c2840  new Confirmed (block=6ff5b2581a6cd1bc4ff9895fcc36d93b272c807b696ff9681f2ad7dadf585f28, height=28, index=0)
+2024-05-10T13:52:17Z [default wallet] AddToWallet dbf25879bc22a621ac5df84db93d0fc449e705db78a41203efff72c46b563a43  new Confirmed (block=780d004420a774177d2a285351cb14f477a0a31d8fd8e0fb5934e5374129a529, height=29, index=0)
+2024-05-10T13:52:17Z [default wallet] AddToWallet cfb5a76c63dce057823ce474a120eb13b96123626b19ca725313f98f26ae24f3  new Confirmed (block=0b29d88b8982f53540717449e2b73391e8cac07fa203e9f3555b4da740fb2eb5, height=30, index=0)
+2024-05-10T13:52:17Z [default wallet] AddToWallet bfb9eb34a5a5142770018aee6ae1a5864568840f40a5316107c64a5d16d1a172  new Confirmed (block=4942242ae5b7c0be38f4b814eb3769b2a5a014a667107cf4c14d66cd99631227, height=31, index=0)
+2024-05-10T13:52:17Z [default wallet] AddToWallet f254bb1fe11f40ab0b21d883398c38b02e4b94d3f41660ab866217194fb1d65b  new Confirmed (block=33f08ecdcf0846857c17afd1af9bc411d9ebe687707ffee738ab81928c04d6d5, height=32, index=0)
+2024-05-10T13:52:17Z UpdateTip: new best=401cf2f2de7c5956f0cd741ebf5c2776fc916f3f98d545d249a0ec9f29dfc1ad height=33 version=0x20000000 log2_work=6.087463 tx=34 date='2024-05-10T13:52:23Z' progress=1.000000 cache=0.3MiB(33txo)
+2024-05-10T13:52:17Z CreateNewBlock(): block weight: 888 txs: 0 fees: 0 sigops 400
+2024-05-10T13:52:17Z Saw new header hash=7fecd4d6779d2f3fd268ee74792554698dabc40b60d07c45567fa6130a091f64 height=34
+2024-05-10T13:52:17Z UpdateTip: new best=7fecd4d6779d2f3fd268ee74792554698dabc40b60d07c45567fa6130a091f64 height=34 version=0x20000000 log2_work=6.129283 tx=35 date='2024-05-10T13:52:23Z' progress=1.000000 cache=0.3MiB(34txo)
+2024-05-10T13:52:17Z CreateNewBlock(): block weight: 888 txs: 0 fees: 0 sigops 400
+2024-05-10T13:52:17Z Saw new header hash=0c00987bf997ab39a49944bb89755a6f2826589c50f4c070e7e95bf54aceb12b height=35
+2024-05-10T13:52:17Z UpdateTip: new best=0c00987bf997ab39a49944bb89755a6f2826589c50f4c070e7e95bf54aceb12b height=35 version=0x20000000 log2_work=6.169925 tx=36 date='2024-05-10T13:52:23Z' progress=1.000000 cache=0.3MiB(35txo)
+2024-05-10T13:52:17Z CreateNewBlock(): block weight: 888 txs: 0 fees: 0 sigops 400
+2024-05-10T13:52:17Z Saw new header hash=168e6aeb8135d1c835087027ad5d26cce5c1fb579be4eb1631740d39a1ce3418 height=36
+2024-05-10T13:52:17Z [default wallet] AddToWallet 36b427f479c8c97d4abcf5730828e4f312bceb4c5874dd8d2f1c8513c66fe409  new Confirmed (block=401cf2f2de7c5956f0cd741ebf5c2776fc916f3f98d545d249a0ec9f29dfc1ad, height=33, index=0)
+2024-05-10T13:52:17Z UpdateTip: new best=168e6aeb8135d1c835087027ad5d26cce5c1fb579be4eb1631740d39a1ce3418 height=36 version=0x20000000 log2_work=6.209453 tx=37 date='2024-05-10T13:52:23Z' progress=1.000000 cache=0.3MiB(36txo)
+2024-05-10T13:52:17Z CreateNewBlock(): block weight: 888 txs: 0 fees: 0 sigops 400
+2024-05-10T13:52:17Z Saw new header hash=4c7285df379d67a6a454859991c9fc3430ffa3183d665315341b3b83ca451e45 height=37
+2024-05-10T13:52:17Z UpdateTip: new best=4c7285df379d67a6a454859991c9fc3430ffa3183d665315341b3b83ca451e45 height=37 version=0x20000000 log2_work=6.247928 tx=38 date='2024-05-10T13:52:23Z' progress=1.000000 cache=0.3MiB(37txo)
+2024-05-10T13:52:17Z CreateNewBlock(): block weight: 888 txs: 0 fees: 0 sigops 400
+2024-05-10T13:52:17Z Saw new header hash=2085ae848f1d31e24ce59041c9d2f69d07f74c3621fc72b8dd9dfb10e9d68cb3 height=38
+2024-05-10T13:52:17Z UpdateTip: new best=2085ae848f1d31e24ce59041c9d2f69d07f74c3621fc72b8dd9dfb10e9d68cb3 height=38 version=0x20000000 log2_work=6.285402 tx=39 date='2024-05-10T13:52:24Z' progress=1.000000 cache=0.3MiB(38txo)
+2024-05-10T13:52:17Z CreateNewBlock(): block weight: 888 txs: 0 fees: 0 sigops 400
+2024-05-10T13:52:17Z Saw new header hash=350e538d6c8e0b7951165ce777eeb6481abed1e6ce73eb4acfa41eded5d12176 height=39
+2024-05-10T13:52:17Z [default wallet] AddToWallet 684b2788cc41b141a5a7ac19ccdb5efed42acf62c824fd6cdbad684463d64d0a  new Confirmed (block=7fecd4d6779d2f3fd268ee74792554698dabc40b60d07c45567fa6130a091f64, height=34, index=0)
+2024-05-10T13:52:17Z [default wallet] AddToWallet b152e1a5780d20d75352940ac8e0bb596f806907d08bab2c2c4d89a170af9027  new Confirmed (block=0c00987bf997ab39a49944bb89755a6f2826589c50f4c070e7e95bf54aceb12b, height=35, index=0)
+2024-05-10T13:52:17Z [default wallet] AddToWallet f3a3e59f09fb8d54d340a0e8ec33f1dd3fec6cdf26888c661df39f414bc7141f  new Confirmed (block=168e6aeb8135d1c835087027ad5d26cce5c1fb579be4eb1631740d39a1ce3418, height=36, index=0)
+2024-05-10T13:52:17Z [default wallet] AddToWallet 229fea62a1aa24568711393cf6d36f362a934e2c65b16f9850f74347f44ef0c3  new Confirmed (block=4c7285df379d67a6a454859991c9fc3430ffa3183d665315341b3b83ca451e45, height=37, index=0)
+2024-05-10T13:52:17Z [default wallet] AddToWallet a8e7524ca6e8bbed359ed570a564e50d767d2dce50f7e8b6e471d32aa873bd6f  new Confirmed (block=2085ae848f1d31e24ce59041c9d2f69d07f74c3621fc72b8dd9dfb10e9d68cb3, height=38, index=0)
+2024-05-10T13:52:17Z UpdateTip: new best=350e538d6c8e0b7951165ce777eeb6481abed1e6ce73eb4acfa41eded5d12176 height=39 version=0x20000000 log2_work=6.321928 tx=40 date='2024-05-10T13:52:24Z' progress=1.000000 cache=0.3MiB(39txo)
+2024-05-10T13:52:17Z CreateNewBlock(): block weight: 888 txs: 0 fees: 0 sigops 400
+2024-05-10T13:52:17Z Saw new header hash=5410b2c41ec37763fd152cf52f2182e2e8fe888b38628fd7e400779bd70ed420 height=40
+2024-05-10T13:52:17Z UpdateTip: new best=5410b2c41ec37763fd152cf52f2182e2e8fe888b38628fd7e400779bd70ed420 height=40 version=0x20000000 log2_work=6.357552 tx=41 date='2024-05-10T13:52:24Z' progress=1.000000 cache=0.3MiB(40txo)
+2024-05-10T13:52:17Z CreateNewBlock(): block weight: 888 txs: 0 fees: 0 sigops 400
+2024-05-10T13:52:17Z Saw new header hash=3919f13787b8f02aa010bfde9e4b454485dbc8f8facfdaa488180cce99ce9d7e height=41
+2024-05-10T13:52:17Z UpdateTip: new best=3919f13787b8f02aa010bfde9e4b454485dbc8f8facfdaa488180cce99ce9d7e height=41 version=0x20000000 log2_work=6.392317 tx=42 date='2024-05-10T13:52:24Z' progress=1.000000 cache=0.3MiB(41txo)
+2024-05-10T13:52:17Z CreateNewBlock(): block weight: 888 txs: 0 fees: 0 sigops 400
+2024-05-10T13:52:17Z Saw new header hash=14c7d67831f437b6c80fe072ea81ea48d4b81b61b40dfd153e269a76573ca113 height=42
+2024-05-10T13:52:17Z UpdateTip: new best=14c7d67831f437b6c80fe072ea81ea48d4b81b61b40dfd153e269a76573ca113 height=42 version=0x20000000 log2_work=6.426265 tx=43 date='2024-05-10T13:52:24Z' progress=1.000000 cache=0.3MiB(42txo)
+2024-05-10T13:52:17Z CreateNewBlock(): block weight: 888 txs: 0 fees: 0 sigops 400
+2024-05-10T13:52:17Z Saw new header hash=15ec25e8a04bb2f19764b434bc053181ee9f313fe8fc90f1547f1831a9bec0f9 height=43
+2024-05-10T13:52:17Z UpdateTip: new best=15ec25e8a04bb2f19764b434bc053181ee9f313fe8fc90f1547f1831a9bec0f9 height=43 version=0x20000000 log2_work=6.459432 tx=44 date='2024-05-10T13:52:24Z' progress=1.000000 cache=0.3MiB(43txo)
+2024-05-10T13:52:17Z CreateNewBlock(): block weight: 888 txs: 0 fees: 0 sigops 400
+2024-05-10T13:52:17Z Saw new header hash=3e59fc3c721a9e7f1baa5f84ede748c3ce141f3428c2253a52dae4292fc3066c height=44
+2024-05-10T13:52:17Z [default wallet] AddToWallet 2f1bf0f76cd07c51fb114d6d14348dd1e11a405bb29421f0dc2cc50417204b4c  new Confirmed (block=350e538d6c8e0b7951165ce777eeb6481abed1e6ce73eb4acfa41eded5d12176, height=39, index=0)
+2024-05-10T13:52:17Z [default wallet] AddToWallet d945538a6fe1a45d81d9e2c2ebfb5eafa41114ffcbbc5762beef544b33d2a6fd  new Confirmed (block=5410b2c41ec37763fd152cf52f2182e2e8fe888b38628fd7e400779bd70ed420, height=40, index=0)
+2024-05-10T13:52:17Z [default wallet] AddToWallet e500519554b8c59d314ff0a78163d2b7b5040cc2b418229dc46d9b31889898d4  new Confirmed (block=3919f13787b8f02aa010bfde9e4b454485dbc8f8facfdaa488180cce99ce9d7e, height=41, index=0)
+2024-05-10T13:52:17Z [default wallet] AddToWallet 69a144ee9f659480bd30c012d0c72e4f102230d416f9a978009da4cea62c6dc3  new Confirmed (block=14c7d67831f437b6c80fe072ea81ea48d4b81b61b40dfd153e269a76573ca113, height=42, index=0)
+2024-05-10T13:52:17Z [default wallet] AddToWallet 7a8e2c7d433a1597e79a067826ce67ce2ae10eeaa0f17cfe17dcd5ecdcd08d56  new Confirmed (block=15ec25e8a04bb2f19764b434bc053181ee9f313fe8fc90f1547f1831a9bec0f9, height=43, index=0)
+2024-05-10T13:52:17Z UpdateTip: new best=3e59fc3c721a9e7f1baa5f84ede748c3ce141f3428c2253a52dae4292fc3066c height=44 version=0x20000000 log2_work=6.491853 tx=45 date='2024-05-10T13:52:25Z' progress=1.000000 cache=0.3MiB(44txo)
+2024-05-10T13:52:17Z CreateNewBlock(): block weight: 888 txs: 0 fees: 0 sigops 400
+2024-05-10T13:52:17Z Saw new header hash=320f864b8966f0cacd2daebf48175824ca70dabb6c60415608f115d247f9cfd9 height=45
+2024-05-10T13:52:17Z UpdateTip: new best=320f864b8966f0cacd2daebf48175824ca70dabb6c60415608f115d247f9cfd9 height=45 version=0x20000000 log2_work=6.523562 tx=46 date='2024-05-10T13:52:25Z' progress=1.000000 cache=0.3MiB(45txo)
+2024-05-10T13:52:17Z CreateNewBlock(): block weight: 888 txs: 0 fees: 0 sigops 400
+2024-05-10T13:52:17Z Saw new header hash=1a15be3ee8797875e4e5ec1dc5e29b719a3d63d3cb97a8186ed1adca2b1737fa height=46
+2024-05-10T13:52:17Z UpdateTip: new best=1a15be3ee8797875e4e5ec1dc5e29b719a3d63d3cb97a8186ed1adca2b1737fa height=46 version=0x20000000 log2_work=6.554589 tx=47 date='2024-05-10T13:52:25Z' progress=1.000000 cache=0.3MiB(46txo)
+2024-05-10T13:52:17Z CreateNewBlock(): block weight: 888 txs: 0 fees: 0 sigops 400
+2024-05-10T13:52:17Z Saw new header hash=19f583bd2c2c0931d150510e865e5d7ed8e63b655c8dd0df266d0cc37da8c1cf height=47
+2024-05-10T13:52:17Z UpdateTip: new best=19f583bd2c2c0931d150510e865e5d7ed8e63b655c8dd0df266d0cc37da8c1cf height=47 version=0x20000000 log2_work=6.584963 tx=48 date='2024-05-10T13:52:25Z' progress=1.000000 cache=0.3MiB(47txo)
+2024-05-10T13:52:17Z CreateNewBlock(): block weight: 888 txs: 0 fees: 0 sigops 400
+2024-05-10T13:52:17Z Saw new header hash=0b7f556deef015c013e82bfde32aaedffd6044caa1a4fa7b0a9d1d6805342d79 height=48
+2024-05-10T13:52:17Z UpdateTip: new best=0b7f556deef015c013e82bfde32aaedffd6044caa1a4fa7b0a9d1d6805342d79 height=48 version=0x20000000 log2_work=6.614710 tx=49 date='2024-05-10T13:52:25Z' progress=1.000000 cache=0.3MiB(48txo)
+2024-05-10T13:52:17Z CreateNewBlock(): block weight: 888 txs: 0 fees: 0 sigops 400
+2024-05-10T13:52:17Z Saw new header hash=5bee588c273eed21e2c482ab5429f9fc5e643ccb11edb6d6ca4aad7cbdd94656 height=49
+2024-05-10T13:52:17Z [default wallet] AddToWallet 947eadca93a9f1bc47fa8e75e96e94e8bde13bb5f66ca01295044316cfd1d808  new Confirmed (block=3e59fc3c721a9e7f1baa5f84ede748c3ce141f3428c2253a52dae4292fc3066c, height=44, index=0)
+2024-05-10T13:52:17Z [default wallet] AddToWallet 4d971a59ffaa2fa7cad7e3056347ddd27ebed10eb3251d3067849297af93a484  new Confirmed (block=320f864b8966f0cacd2daebf48175824ca70dabb6c60415608f115d247f9cfd9, height=45, index=0)
+2024-05-10T13:52:17Z [default wallet] AddToWallet 8b29540bc4eb9e6287a51969a096cdbeb7dd23951c85cd741167b6c76e92eb86  new Confirmed (block=1a15be3ee8797875e4e5ec1dc5e29b719a3d63d3cb97a8186ed1adca2b1737fa, height=46, index=0)
+2024-05-10T13:52:17Z [default wallet] AddToWallet 4f301d1d0abdd886a8998a0197748c100f531ab0518a84f4cc365c24e89c030a  new Confirmed (block=19f583bd2c2c0931d150510e865e5d7ed8e63b655c8dd0df266d0cc37da8c1cf, height=47, index=0)
+2024-05-10T13:52:17Z [default wallet] AddToWallet a3290da86434207e41c33882dcb49998e06c893b1947b48d86ded6897c1db15f  new Confirmed (block=0b7f556deef015c013e82bfde32aaedffd6044caa1a4fa7b0a9d1d6805342d79, height=48, index=0)
+2024-05-10T13:52:17Z UpdateTip: new best=5bee588c273eed21e2c482ab5429f9fc5e643ccb11edb6d6ca4aad7cbdd94656 height=49 version=0x20000000 log2_work=6.643856 tx=50 date='2024-05-10T13:52:25Z' progress=1.000000 cache=0.3MiB(49txo)
+2024-05-10T13:52:17Z CreateNewBlock(): block weight: 888 txs: 0 fees: 0 sigops 400
+2024-05-10T13:52:17Z Saw new header hash=69da120f82788a2871bdd76c8522d64f4577e6638d62f4b0e1ca6931ed0c123f height=50
+2024-05-10T13:52:17Z UpdateTip: new best=69da120f82788a2871bdd76c8522d64f4577e6638d62f4b0e1ca6931ed0c123f height=50 version=0x20000000 log2_work=6.672425 tx=51 date='2024-05-10T13:52:26Z' progress=1.000000 cache=0.3MiB(50txo)
+2024-05-10T13:52:17Z CreateNewBlock(): block weight: 888 txs: 0 fees: 0 sigops 400
+2024-05-10T13:52:17Z Saw new header hash=236735e9c96f53ccf941d5644c2a14b77820cc166b20eef7f5a9595f5b9c05ae height=51
+2024-05-10T13:52:17Z UpdateTip: new best=236735e9c96f53ccf941d5644c2a14b77820cc166b20eef7f5a9595f5b9c05ae height=51 version=0x20000000 log2_work=6.700440 tx=52 date='2024-05-10T13:52:26Z' progress=1.000000 cache=0.3MiB(51txo)
+2024-05-10T13:52:17Z CreateNewBlock(): block weight: 888 txs: 0 fees: 0 sigops 400
+2024-05-10T13:52:17Z Saw new header hash=366e226bc5bda55da4e63f0f62eb3cae5dadf9840497e894f86b8a14cda34a9e height=52
+2024-05-10T13:52:17Z UpdateTip: new best=366e226bc5bda55da4e63f0f62eb3cae5dadf9840497e894f86b8a14cda34a9e height=52 version=0x20000000 log2_work=6.727920 tx=53 date='2024-05-10T13:52:26Z' progress=1.000000 cache=0.3MiB(52txo)
+2024-05-10T13:52:17Z CreateNewBlock(): block weight: 888 txs: 0 fees: 0 sigops 400
+2024-05-10T13:52:17Z Saw new header hash=79beb44458fe4b2a7ee3c6238c7aee34efa25f9d02bb060fdb187ad12780f31f height=53
+2024-05-10T13:52:17Z UpdateTip: new best=79beb44458fe4b2a7ee3c6238c7aee34efa25f9d02bb060fdb187ad12780f31f height=53 version=0x20000000 log2_work=6.754888 tx=54 date='2024-05-10T13:52:26Z' progress=1.000000 cache=0.3MiB(53txo)
+2024-05-10T13:52:17Z CreateNewBlock(): block weight: 888 txs: 0 fees: 0 sigops 400
+2024-05-10T13:52:17Z Saw new header hash=100b7ba1206c8fcbf92e1d76d6c019efed81a296d2798c89e84f421473ac664f height=54
+2024-05-10T13:52:17Z [default wallet] AddToWallet 189516c7ca0ccaf80ce49fd915ae29bbb4776ed1dac0e2e0d7a812d701dc900e  new Confirmed (block=5bee588c273eed21e2c482ab5429f9fc5e643ccb11edb6d6ca4aad7cbdd94656, height=49, index=0)
+2024-05-10T13:52:17Z [default wallet] AddToWallet a554366832c793999d62da659048f62ed22d98cbc491475fdbe538f926df480b  new Confirmed (block=69da120f82788a2871bdd76c8522d64f4577e6638d62f4b0e1ca6931ed0c123f, height=50, index=0)
+2024-05-10T13:52:17Z [default wallet] AddToWallet 7a151d21395ac26acf0cb96185a1c1e85615868279d098b5d7b2e33326e1b6f5  new Confirmed (block=236735e9c96f53ccf941d5644c2a14b77820cc166b20eef7f5a9595f5b9c05ae, height=51, index=0)
+2024-05-10T13:52:17Z [default wallet] AddToWallet c9ff287cd3eb93c0c0a8a25a3a0099a9b2c1bc7dc88292588b00aed19718c354  new Confirmed (block=366e226bc5bda55da4e63f0f62eb3cae5dadf9840497e894f86b8a14cda34a9e, height=52, index=0)
+2024-05-10T13:52:17Z [default wallet] AddToWallet 80bc8a0551e379d8641977c212261466f17ee373b3fad241ad22e5b4a4f0e3ad  new Confirmed (block=79beb44458fe4b2a7ee3c6238c7aee34efa25f9d02bb060fdb187ad12780f31f, height=53, index=0)
+2024-05-10T13:52:17Z UpdateTip: new best=100b7ba1206c8fcbf92e1d76d6c019efed81a296d2798c89e84f421473ac664f height=54 version=0x20000000 log2_work=6.781360 tx=55 date='2024-05-10T13:52:26Z' progress=1.000000 cache=0.3MiB(54txo)
+2024-05-10T13:52:17Z CreateNewBlock(): block weight: 888 txs: 0 fees: 0 sigops 400
+2024-05-10T13:52:17Z Saw new header hash=009776e48ff9f69f655e1838b5c2e6bd3de2572559e2ecf39d0c4702564c0e49 height=55
+2024-05-10T13:52:17Z UpdateTip: new best=009776e48ff9f69f655e1838b5c2e6bd3de2572559e2ecf39d0c4702564c0e49 height=55 version=0x20000000 log2_work=6.807355 tx=56 date='2024-05-10T13:52:26Z' progress=1.000000 cache=0.3MiB(55txo)
+2024-05-10T13:52:17Z CreateNewBlock(): block weight: 888 txs: 0 fees: 0 sigops 400
+2024-05-10T13:52:17Z Saw new header hash=5294227b8f716ae2e9468499ff6ff1dd2b8d1b46b45efd629d6787127cfa7e3a height=56
+2024-05-10T13:52:17Z UpdateTip: new best=5294227b8f716ae2e9468499ff6ff1dd2b8d1b46b45efd629d6787127cfa7e3a height=56 version=0x20000000 log2_work=6.832890 tx=57 date='2024-05-10T13:52:27Z' progress=1.000000 cache=0.3MiB(56txo)
+2024-05-10T13:52:17Z CreateNewBlock(): block weight: 888 txs: 0 fees: 0 sigops 400
+2024-05-10T13:52:17Z Saw new header hash=3c7089d3ddb3a7b45a480b4c3a95108ca47324f1b1b714a730a9ff7da9c0ca99 height=57
+2024-05-10T13:52:17Z UpdateTip: new best=3c7089d3ddb3a7b45a480b4c3a95108ca47324f1b1b714a730a9ff7da9c0ca99 height=57 version=0x20000000 log2_work=6.857981 tx=58 date='2024-05-10T13:52:27Z' progress=1.000000 cache=0.3MiB(57txo)
+2024-05-10T13:52:17Z CreateNewBlock(): block weight: 888 txs: 0 fees: 0 sigops 400
+2024-05-10T13:52:17Z Saw new header hash=7a4920ce4d3b11c0793544d27140a35d189df61b2c8e506fa9969ea91f0df918 height=58
+2024-05-10T13:52:17Z UpdateTip: new best=7a4920ce4d3b11c0793544d27140a35d189df61b2c8e506fa9969ea91f0df918 height=58 version=0x20000000 log2_work=6.882643 tx=59 date='2024-05-10T13:52:27Z' progress=1.000000 cache=0.3MiB(58txo)
+2024-05-10T13:52:17Z CreateNewBlock(): block weight: 888 txs: 0 fees: 0 sigops 400
+2024-05-10T13:52:17Z Saw new header hash=147574cacf49a5f2e45a3765deb8010a69b86daf49aa14bf3904c585e9fe7837 height=59
+2024-05-10T13:52:17Z [default wallet] AddToWallet 5ac4a3e5a8f92d807ae6120cff7742f72e98becc6f55b585c076eaf87fcc207c  new Confirmed (block=100b7ba1206c8fcbf92e1d76d6c019efed81a296d2798c89e84f421473ac664f, height=54, index=0)
+2024-05-10T13:52:17Z [default wallet] AddToWallet 4319702357bae5d8f07d8db4b6010517654e857f569242157d13641dfd58030f  new Confirmed (block=009776e48ff9f69f655e1838b5c2e6bd3de2572559e2ecf39d0c4702564c0e49, height=55, index=0)
+2024-05-10T13:52:17Z [default wallet] AddToWallet 62d97d6b302dbdb811f93cec5c574b3a6d218d954350429b6a71155199a43dac  new Confirmed (block=5294227b8f716ae2e9468499ff6ff1dd2b8d1b46b45efd629d6787127cfa7e3a, height=56, index=0)
+2024-05-10T13:52:17Z [default wallet] AddToWallet 05c6366f2ac22b0bea651c472f2eac1e7f12cbcd97e1f55398bacaae895e5eac  new Confirmed (block=3c7089d3ddb3a7b45a480b4c3a95108ca47324f1b1b714a730a9ff7da9c0ca99, height=57, index=0)
+2024-05-10T13:52:17Z [default wallet] AddToWallet 2b4e09ccc22cfaf9dba3b7db4596719f1d047ca4bf10564770ae3ac715cd8a7d  new Confirmed (block=7a4920ce4d3b11c0793544d27140a35d189df61b2c8e506fa9969ea91f0df918, height=58, index=0)
+2024-05-10T13:52:17Z UpdateTip: new best=147574cacf49a5f2e45a3765deb8010a69b86daf49aa14bf3904c585e9fe7837 height=59 version=0x20000000 log2_work=6.906891 tx=60 date='2024-05-10T13:52:27Z' progress=1.000000 cache=0.3MiB(59txo)
+2024-05-10T13:52:17Z CreateNewBlock(): block weight: 888 txs: 0 fees: 0 sigops 400
+2024-05-10T13:52:17Z Saw new header hash=691d98336c15f0b3082b8a08f6a5a4b3183841e841ddacf87cd52dc37a4c45c9 height=60
+2024-05-10T13:52:17Z UpdateTip: new best=691d98336c15f0b3082b8a08f6a5a4b3183841e841ddacf87cd52dc37a4c45c9 height=60 version=0x20000000 log2_work=6.930737 tx=61 date='2024-05-10T13:52:27Z' progress=1.000000 cache=0.3MiB(60txo)
+2024-05-10T13:52:17Z CreateNewBlock(): block weight: 888 txs: 0 fees: 0 sigops 400
+2024-05-10T13:52:17Z Saw new header hash=68e61bd409b4d22e12649f33c7ea46f667fa95e73081f38e94be06be861dcdc1 height=61
+2024-05-10T13:52:17Z UpdateTip: new best=68e61bd409b4d22e12649f33c7ea46f667fa95e73081f38e94be06be861dcdc1 height=61 version=0x20000000 log2_work=6.954196 tx=62 date='2024-05-10T13:52:27Z' progress=1.000000 cache=0.3MiB(61txo)
+2024-05-10T13:52:17Z CreateNewBlock(): block weight: 888 txs: 0 fees: 0 sigops 400
+2024-05-10T13:52:17Z Saw new header hash=3bfadc1f303c54977628debd05e0c0bc2a71af18a67570eb2d8eed3fc76fe1d1 height=62
+2024-05-10T13:52:17Z UpdateTip: new best=3bfadc1f303c54977628debd05e0c0bc2a71af18a67570eb2d8eed3fc76fe1d1 height=62 version=0x20000000 log2_work=6.977280 tx=63 date='2024-05-10T13:52:28Z' progress=1.000000 cache=0.3MiB(62txo)
+2024-05-10T13:52:17Z CreateNewBlock(): block weight: 888 txs: 0 fees: 0 sigops 400
+2024-05-10T13:52:17Z Saw new header hash=5375a1f37a6c68f7996c1272fafe5f59274c34c4a744a6862f6261b62e9b642e height=63
+2024-05-10T13:52:17Z UpdateTip: new best=5375a1f37a6c68f7996c1272fafe5f59274c34c4a744a6862f6261b62e9b642e height=63 version=0x20000000 log2_work=7.000000 tx=64 date='2024-05-10T13:52:28Z' progress=1.000000 cache=0.3MiB(63txo)
+2024-05-10T13:52:17Z CreateNewBlock(): block weight: 888 txs: 0 fees: 0 sigops 400
+2024-05-10T13:52:17Z Saw new header hash=4cf6c9bb0cf0251230d416cd96ad3b168020fdf479fd9972ea0ca342a4696145 height=64
+2024-05-10T13:52:17Z [default wallet] AddToWallet 8ee2199638849d885962b455d8a3b765621be55ca0e553fd57212aaab1b0cbab  new Confirmed (block=147574cacf49a5f2e45a3765deb8010a69b86daf49aa14bf3904c585e9fe7837, height=59, index=0)
+2024-05-10T13:52:17Z [default wallet] AddToWallet 1fb0a330030f7d53522794499a5ef294a00fefbbadc706905eca668f39c5e10f  new Confirmed (block=691d98336c15f0b3082b8a08f6a5a4b3183841e841ddacf87cd52dc37a4c45c9, height=60, index=0)
+2024-05-10T13:52:17Z [default wallet] AddToWallet a4ceb64fdba7ec9ef6165d2414fc83a74164b80ae32cfd57253d0136eda406c9  new Confirmed (block=68e61bd409b4d22e12649f33c7ea46f667fa95e73081f38e94be06be861dcdc1, height=61, index=0)
+2024-05-10T13:52:17Z [default wallet] AddToWallet 29909dfe3028faa639ccec128cbb597ef18fd3878f08bc81e40d1edd4405ea40  new Confirmed (block=3bfadc1f303c54977628debd05e0c0bc2a71af18a67570eb2d8eed3fc76fe1d1, height=62, index=0)
+2024-05-10T13:52:17Z [default wallet] AddToWallet 10da7587682c954bfc17ef27c86238d1674d9d119ae40c57c39399fef22b2da7  new Confirmed (block=5375a1f37a6c68f7996c1272fafe5f59274c34c4a744a6862f6261b62e9b642e, height=63, index=0)
+2024-05-10T13:52:17Z UpdateTip: new best=4cf6c9bb0cf0251230d416cd96ad3b168020fdf479fd9972ea0ca342a4696145 height=64 version=0x20000000 log2_work=7.022368 tx=65 date='2024-05-10T13:52:28Z' progress=1.000000 cache=0.3MiB(64txo)
+2024-05-10T13:52:17Z CreateNewBlock(): block weight: 888 txs: 0 fees: 0 sigops 400
+2024-05-10T13:52:17Z Saw new header hash=5ed0ff62b56768ac87a0b7fd519e10ac0abb88982703b45a50a070b4384c1e72 height=65
+2024-05-10T13:52:17Z UpdateTip: new best=5ed0ff62b56768ac87a0b7fd519e10ac0abb88982703b45a50a070b4384c1e72 height=65 version=0x20000000 log2_work=7.044394 tx=66 date='2024-05-10T13:52:28Z' progress=1.000000 cache=0.3MiB(65txo)
+2024-05-10T13:52:17Z CreateNewBlock(): block weight: 888 txs: 0 fees: 0 sigops 400
+2024-05-10T13:52:17Z Saw new header hash=40eac3e592a6bc84a4269da6a03c9f807a65299ebc41900494b6748fc122d867 height=66
+2024-05-10T13:52:17Z UpdateTip: new best=40eac3e592a6bc84a4269da6a03c9f807a65299ebc41900494b6748fc122d867 height=66 version=0x20000000 log2_work=7.066089 tx=67 date='2024-05-10T13:52:28Z' progress=1.000000 cache=0.3MiB(66txo)
+2024-05-10T13:52:17Z CreateNewBlock(): block weight: 888 txs: 0 fees: 0 sigops 400
+2024-05-10T13:52:17Z Saw new header hash=6476866f9819679cd40be8d2e6c547e3d77a12ecf683cb54644250e9a5a662f5 height=67
+2024-05-10T13:52:17Z UpdateTip: new best=6476866f9819679cd40be8d2e6c547e3d77a12ecf683cb54644250e9a5a662f5 height=67 version=0x20000000 log2_work=7.087463 tx=68 date='2024-05-10T13:52:28Z' progress=1.000000 cache=0.3MiB(67txo)
+2024-05-10T13:52:17Z CreateNewBlock(): block weight: 888 txs: 0 fees: 0 sigops 400
+2024-05-10T13:52:17Z Saw new header hash=5ca614bf6f5f6acfbea6b9334af238a567503b02f3b17c36f19149fb12505d73 height=68
+2024-05-10T13:52:17Z UpdateTip: new best=5ca614bf6f5f6acfbea6b9334af238a567503b02f3b17c36f19149fb12505d73 height=68 version=0x20000000 log2_work=7.108524 tx=69 date='2024-05-10T13:52:29Z' progress=1.000000 cache=0.3MiB(68txo)
+2024-05-10T13:52:17Z CreateNewBlock(): block weight: 888 txs: 0 fees: 0 sigops 400
+2024-05-10T13:52:17Z Saw new header hash=56e437ae6994ae404dcaf20c06a222c5e6ca3701ffafd4cb27f2cd3cfbb14a94 height=69
+2024-05-10T13:52:17Z [default wallet] AddToWallet 491a36fdc599449a432a85571bede92f54436784d0732be71e0ca1001adad2de  new Confirmed (block=4cf6c9bb0cf0251230d416cd96ad3b168020fdf479fd9972ea0ca342a4696145, height=64, index=0)
+2024-05-10T13:52:17Z [default wallet] AddToWallet 8ed71eeed0a9dfa455a3017ac0aebe91ed84c537c05744c3c5831f2f7cd29f60  new Confirmed (block=5ed0ff62b56768ac87a0b7fd519e10ac0abb88982703b45a50a070b4384c1e72, height=65, index=0)
+2024-05-10T13:52:17Z [default wallet] AddToWallet cd7d0e44d268b6cc15474aab74d577c2ec999835a194b83e89a9624e3b050d65  new Confirmed (block=40eac3e592a6bc84a4269da6a03c9f807a65299ebc41900494b6748fc122d867, height=66, index=0)
+2024-05-10T13:52:17Z [default wallet] AddToWallet d018c3e2a78af4f8e10f18d261b2edc3cb8274b0bf27f51f5a536b7aa1d9170c  new Confirmed (block=6476866f9819679cd40be8d2e6c547e3d77a12ecf683cb54644250e9a5a662f5, height=67, index=0)
+2024-05-10T13:52:17Z [default wallet] AddToWallet e6d1c2ce42fe7984702429397905539b724f9ee5cdc7e640d74855b0f8245d95  new Confirmed (block=5ca614bf6f5f6acfbea6b9334af238a567503b02f3b17c36f19149fb12505d73, height=68, index=0)
+2024-05-10T13:52:17Z UpdateTip: new best=56e437ae6994ae404dcaf20c06a222c5e6ca3701ffafd4cb27f2cd3cfbb14a94 height=69 version=0x20000000 log2_work=7.129283 tx=70 date='2024-05-10T13:52:29Z' progress=1.000000 cache=0.3MiB(69txo)
+2024-05-10T13:52:17Z CreateNewBlock(): block weight: 888 txs: 0 fees: 0 sigops 400
+2024-05-10T13:52:17Z Saw new header hash=3ace6ac2cb09db3cdb559328b121463d5fd0ca948fe7d05718655908c73e66a3 height=70
+2024-05-10T13:52:17Z UpdateTip: new best=3ace6ac2cb09db3cdb559328b121463d5fd0ca948fe7d05718655908c73e66a3 height=70 version=0x20000000 log2_work=7.149747 tx=71 date='2024-05-10T13:52:29Z' progress=1.000000 cache=0.3MiB(70txo)
+2024-05-10T13:52:17Z CreateNewBlock(): block weight: 888 txs: 0 fees: 0 sigops 400
+2024-05-10T13:52:17Z Saw new header hash=14b45628cc85833f8318a79925536e19143f05ec2dde2d0736c440063f8de912 height=71
+2024-05-10T13:52:17Z UpdateTip: new best=14b45628cc85833f8318a79925536e19143f05ec2dde2d0736c440063f8de912 height=71 version=0x20000000 log2_work=7.169925 tx=72 date='2024-05-10T13:52:29Z' progress=1.000000 cache=0.3MiB(71txo)
+2024-05-10T13:52:17Z CreateNewBlock(): block weight: 888 txs: 0 fees: 0 sigops 400
+2024-05-10T13:52:17Z Saw new header hash=0fa0a65d2c47da52f8262c073a12710dfdd98f8c84df13bade18d51255269064 height=72
+2024-05-10T13:52:17Z UpdateTip: new best=0fa0a65d2c47da52f8262c073a12710dfdd98f8c84df13bade18d51255269064 height=72 version=0x20000000 log2_work=7.189825 tx=73 date='2024-05-10T13:52:29Z' progress=1.000000 cache=0.3MiB(72txo)
+2024-05-10T13:52:17Z CreateNewBlock(): block weight: 888 txs: 0 fees: 0 sigops 400
+2024-05-10T13:52:17Z Saw new header hash=220ded789bc239ab626446ae005e6ca5cdb1d468e276e1e44d50a2eb7a1bdfaa height=73
+2024-05-10T13:52:17Z UpdateTip: new best=220ded789bc239ab626446ae005e6ca5cdb1d468e276e1e44d50a2eb7a1bdfaa height=73 version=0x20000000 log2_work=7.209453 tx=74 date='2024-05-10T13:52:29Z' progress=1.000000 cache=0.3MiB(73txo)
+2024-05-10T13:52:17Z CreateNewBlock(): block weight: 888 txs: 0 fees: 0 sigops 400
+2024-05-10T13:52:17Z Saw new header hash=2eb065937ba80e4b1f323c96233f4787bf79e3540a4e32298466b22653b5d9d2 height=74
+2024-05-10T13:52:17Z [default wallet] AddToWallet 486c9c84082c6f0289367d0607489dbe4fcfd76498fbb1b7bc0822fca840ded1  new Confirmed (block=56e437ae6994ae404dcaf20c06a222c5e6ca3701ffafd4cb27f2cd3cfbb14a94, height=69, index=0)
+2024-05-10T13:52:17Z [default wallet] AddToWallet b870a66006868d8b0899d39bfd5b74fd1a40d2a05f180135518ac87e0c9af416  new Confirmed (block=3ace6ac2cb09db3cdb559328b121463d5fd0ca948fe7d05718655908c73e66a3, height=70, index=0)
+2024-05-10T13:52:17Z [default wallet] AddToWallet 03e5d5f74157cd328b3cda86110071c0bc8b719e75f20cdfe0dadaa294e2153f  new Confirmed (block=14b45628cc85833f8318a79925536e19143f05ec2dde2d0736c440063f8de912, height=71, index=0)
+2024-05-10T13:52:17Z [default wallet] AddToWallet 8b3312aa9ce2079bbf062ce6464c3b25f60b6abf9f7480f03807364c4421f09d  new Confirmed (block=0fa0a65d2c47da52f8262c073a12710dfdd98f8c84df13bade18d51255269064, height=72, index=0)
+2024-05-10T13:52:17Z [default wallet] AddToWallet 6a7d0c76be333c32e6e2aed2e7ed4d21b61b75ea11ec53eff14add5e0334b73b  new Confirmed (block=220ded789bc239ab626446ae005e6ca5cdb1d468e276e1e44d50a2eb7a1bdfaa, height=73, index=0)
+2024-05-10T13:52:17Z UpdateTip: new best=2eb065937ba80e4b1f323c96233f4787bf79e3540a4e32298466b22653b5d9d2 height=74 version=0x20000000 log2_work=7.228819 tx=75 date='2024-05-10T13:52:30Z' progress=1.000000 cache=0.3MiB(74txo)
+2024-05-10T13:52:17Z CreateNewBlock(): block weight: 888 txs: 0 fees: 0 sigops 400
+2024-05-10T13:52:17Z Saw new header hash=35f96cda1959cbb307f8cff009399cbb3b3c3e1e125561b161c8e55dd5e79b96 height=75
+2024-05-10T13:52:17Z UpdateTip: new best=35f96cda1959cbb307f8cff009399cbb3b3c3e1e125561b161c8e55dd5e79b96 height=75 version=0x20000000 log2_work=7.247928 tx=76 date='2024-05-10T13:52:30Z' progress=1.000000 cache=0.3MiB(75txo)
+2024-05-10T13:52:17Z CreateNewBlock(): block weight: 888 txs: 0 fees: 0 sigops 400
+2024-05-10T13:52:17Z Saw new header hash=51738bc1a0394522cd0c8b4ebfb57072a7aa50758e1a6560ee2745c1924d97cb height=76
+2024-05-10T13:52:17Z UpdateTip: new best=51738bc1a0394522cd0c8b4ebfb57072a7aa50758e1a6560ee2745c1924d97cb height=76 version=0x20000000 log2_work=7.266787 tx=77 date='2024-05-10T13:52:30Z' progress=1.000000 cache=0.3MiB(76txo)
+2024-05-10T13:52:17Z CreateNewBlock(): block weight: 888 txs: 0 fees: 0 sigops 400
+2024-05-10T13:52:17Z Saw new header hash=6476dda56edd8e98eaafff93c48eefbaceb4132e7b03f5f4a43b48a9986cbf2b height=77
+2024-05-10T13:52:17Z UpdateTip: new best=6476dda56edd8e98eaafff93c48eefbaceb4132e7b03f5f4a43b48a9986cbf2b height=77 version=0x20000000 log2_work=7.285402 tx=78 date='2024-05-10T13:52:30Z' progress=1.000000 cache=0.3MiB(77txo)
+2024-05-10T13:52:17Z CreateNewBlock(): block weight: 888 txs: 0 fees: 0 sigops 400
+2024-05-10T13:52:17Z Saw new header hash=510971b40cb4d95c0a58908820a8415d10b6cdb1754e0ea8187001efab5fb50a height=78
+2024-05-10T13:52:17Z UpdateTip: new best=510971b40cb4d95c0a58908820a8415d10b6cdb1754e0ea8187001efab5fb50a height=78 version=0x20000000 log2_work=7.303781 tx=79 date='2024-05-10T13:52:30Z' progress=1.000000 cache=0.3MiB(78txo)
+2024-05-10T13:52:17Z CreateNewBlock(): block weight: 888 txs: 0 fees: 0 sigops 400
+2024-05-10T13:52:17Z Saw new header hash=1b7d1aca1acc80de60ec00b4dc36c9faef7b483022470b8677ea356236afebaf height=79
+2024-05-10T13:52:17Z [default wallet] AddToWallet 79d2271351bf6a125bc63a95ae995c2bc00e64646348cd3b8f821f73b0cfb4e4  new Confirmed (block=2eb065937ba80e4b1f323c96233f4787bf79e3540a4e32298466b22653b5d9d2, height=74, index=0)
+2024-05-10T13:52:17Z [default wallet] AddToWallet 30b39c67ff0603058d524f6eacbcf4d0407fe53b360ae05640cdbbf2348556e8  new Confirmed (block=35f96cda1959cbb307f8cff009399cbb3b3c3e1e125561b161c8e55dd5e79b96, height=75, index=0)
+2024-05-10T13:52:17Z [default wallet] AddToWallet 402047e4bf673cbeb2414da7dbd9117ea43cb14bdd0f0ea1bb0e046123dd71a0  new Confirmed (block=51738bc1a0394522cd0c8b4ebfb57072a7aa50758e1a6560ee2745c1924d97cb, height=76, index=0)
+2024-05-10T13:52:17Z [default wallet] AddToWallet 1e5edf6474cc5a402adf8e2fc00687cdceae6ac4cb133bf496b731cea7d13bd0  new Confirmed (block=6476dda56edd8e98eaafff93c48eefbaceb4132e7b03f5f4a43b48a9986cbf2b, height=77, index=0)
+2024-05-10T13:52:17Z [default wallet] AddToWallet 082e271e24d5b0d27167415f9d6144327719db4388bc4cbcefedc5bdd90adc7e  new Confirmed (block=510971b40cb4d95c0a58908820a8415d10b6cdb1754e0ea8187001efab5fb50a, height=78, index=0)
+2024-05-10T13:52:17Z UpdateTip: new best=1b7d1aca1acc80de60ec00b4dc36c9faef7b483022470b8677ea356236afebaf height=79 version=0x20000000 log2_work=7.321928 tx=80 date='2024-05-10T13:52:30Z' progress=1.000000 cache=0.3MiB(79txo)
+2024-05-10T13:52:17Z CreateNewBlock(): block weight: 888 txs: 0 fees: 0 sigops 400
+2024-05-10T13:52:17Z Saw new header hash=68cc20e457cc0a80a6d30625c98878b6ec337aaa1455b21610f12e6250deea60 height=80
+2024-05-10T13:52:17Z UpdateTip: new best=68cc20e457cc0a80a6d30625c98878b6ec337aaa1455b21610f12e6250deea60 height=80 version=0x20000000 log2_work=7.339850 tx=81 date='2024-05-10T13:52:31Z' progress=1.000000 cache=0.3MiB(80txo)
+2024-05-10T13:52:17Z CreateNewBlock(): block weight: 888 txs: 0 fees: 0 sigops 400
+2024-05-10T13:52:17Z Saw new header hash=767026e104cfd45e8907a514e3c0e1fa5b67fcf1a87caeda89aabc3a46eac6d7 height=81
+2024-05-10T13:52:17Z UpdateTip: new best=767026e104cfd45e8907a514e3c0e1fa5b67fcf1a87caeda89aabc3a46eac6d7 height=81 version=0x20000000 log2_work=7.357552 tx=82 date='2024-05-10T13:52:31Z' progress=1.000000 cache=0.3MiB(81txo)
+2024-05-10T13:52:17Z CreateNewBlock(): block weight: 888 txs: 0 fees: 0 sigops 400
+2024-05-10T13:52:17Z Saw new header hash=0274f0e6414a42d1014f0c471cfe09543e8c9c53d069df82ef9a8d592ad62e1b height=82
+2024-05-10T13:52:17Z UpdateTip: new best=0274f0e6414a42d1014f0c471cfe09543e8c9c53d069df82ef9a8d592ad62e1b height=82 version=0x20000000 log2_work=7.375039 tx=83 date='2024-05-10T13:52:31Z' progress=1.000000 cache=0.3MiB(82txo)
+2024-05-10T13:52:17Z CreateNewBlock(): block weight: 888 txs: 0 fees: 0 sigops 400
+2024-05-10T13:52:17Z Saw new header hash=72c48e6d787ce11d5948664df661b1ef52de2508c98554c1fbd6d98ec3790770 height=83
+2024-05-10T13:52:17Z UpdateTip: new best=72c48e6d787ce11d5948664df661b1ef52de2508c98554c1fbd6d98ec3790770 height=83 version=0x20000000 log2_work=7.392317 tx=84 date='2024-05-10T13:52:31Z' progress=1.000000 cache=0.3MiB(83txo)
+2024-05-10T13:52:17Z CreateNewBlock(): block weight: 888 txs: 0 fees: 0 sigops 400
+2024-05-10T13:52:17Z Saw new header hash=1531db3633036faed0cc63ba91f2e3b7a8df801b1d0fa25dc3ec90664d90985a height=84
+2024-05-10T13:52:17Z [default wallet] AddToWallet aee8a16cbde07af725021b1ddbb198c7281c3361d54da534c07184b202dfd4e1  new Confirmed (block=1b7d1aca1acc80de60ec00b4dc36c9faef7b483022470b8677ea356236afebaf, height=79, index=0)
+2024-05-10T13:52:17Z [default wallet] AddToWallet 05cf33ff8013c0a184ffa713d53e11b8e56da2200a5d7768191c655c7ddcf099  new Confirmed (block=68cc20e457cc0a80a6d30625c98878b6ec337aaa1455b21610f12e6250deea60, height=80, index=0)
+2024-05-10T13:52:17Z [default wallet] AddToWallet 6d5cf177870541c40a7cb58fd04b35e3f6087b9c2d2c563c5830ea1072090e54  new Confirmed (block=767026e104cfd45e8907a514e3c0e1fa5b67fcf1a87caeda89aabc3a46eac6d7, height=81, index=0)
+2024-05-10T13:52:17Z [default wallet] AddToWallet 43689ad97f3c36156f90312115fd492a8862b8e82bcf799a32846aba60c2c4aa  new Confirmed (block=0274f0e6414a42d1014f0c471cfe09543e8c9c53d069df82ef9a8d592ad62e1b, height=82, index=0)
+2024-05-10T13:52:17Z [default wallet] AddToWallet f8698f3f6c650330815992ade99d7ae035d81aec7a65cd436a7a683b5ca11e8e  new Confirmed (block=72c48e6d787ce11d5948664df661b1ef52de2508c98554c1fbd6d98ec3790770, height=83, index=0)
+2024-05-10T13:52:17Z UpdateTip: new best=1531db3633036faed0cc63ba91f2e3b7a8df801b1d0fa25dc3ec90664d90985a height=84 version=0x20000000 log2_work=7.409391 tx=85 date='2024-05-10T13:52:31Z' progress=1.000000 cache=0.3MiB(84txo)
+2024-05-10T13:52:17Z CreateNewBlock(): block weight: 888 txs: 0 fees: 0 sigops 400
+2024-05-10T13:52:17Z Saw new header hash=4192890f1e5a9309511de1871e2db65f4f93aea7b2b89cb8fa847b450ae3b115 height=85
+2024-05-10T13:52:17Z UpdateTip: new best=4192890f1e5a9309511de1871e2db65f4f93aea7b2b89cb8fa847b450ae3b115 height=85 version=0x20000000 log2_work=7.426265 tx=86 date='2024-05-10T13:52:31Z' progress=1.000000 cache=0.3MiB(85txo)
+2024-05-10T13:52:17Z CreateNewBlock(): block weight: 888 txs: 0 fees: 0 sigops 400
+2024-05-10T13:52:17Z Saw new header hash=620c45c4e67b3f9ebcb8352ac9bc0c7de8aefd42c8ff18d51e79df885dad2d28 height=86
+2024-05-10T13:52:17Z UpdateTip: new best=620c45c4e67b3f9ebcb8352ac9bc0c7de8aefd42c8ff18d51e79df885dad2d28 height=86 version=0x20000000 log2_work=7.442943 tx=87 date='2024-05-10T13:52:32Z' progress=1.000000 cache=0.3MiB(86txo)
+2024-05-10T13:52:17Z CreateNewBlock(): block weight: 888 txs: 0 fees: 0 sigops 400
+2024-05-10T13:52:17Z Saw new header hash=68cd4e088ae6e70a58228701fa6713250d4e032045bae4bc3388dbd85448a279 height=87
+2024-05-10T13:52:17Z UpdateTip: new best=68cd4e088ae6e70a58228701fa6713250d4e032045bae4bc3388dbd85448a279 height=87 version=0x20000000 log2_work=7.459432 tx=88 date='2024-05-10T13:52:32Z' progress=1.000000 cache=0.3MiB(87txo)
+2024-05-10T13:52:17Z CreateNewBlock(): block weight: 888 txs: 0 fees: 0 sigops 400
+2024-05-10T13:52:17Z Saw new header hash=6c939135ce7320e194d9a34c5fc1cdc66ff01e362bbbf7f6f0b7c0257d63b5be height=88
+2024-05-10T13:52:17Z UpdateTip: new best=6c939135ce7320e194d9a34c5fc1cdc66ff01e362bbbf7f6f0b7c0257d63b5be height=88 version=0x20000000 log2_work=7.475733 tx=89 date='2024-05-10T13:52:32Z' progress=1.000000 cache=0.3MiB(88txo)
+2024-05-10T13:52:17Z CreateNewBlock(): block weight: 888 txs: 0 fees: 0 sigops 400
+2024-05-10T13:52:17Z Saw new header hash=03bab0e8268f4e8a163131c5abc65e1f651b2b86872d1ee959ba1fcfb7f4d297 height=89
+2024-05-10T13:52:17Z [default wallet] AddToWallet 9bf4e75029f5269c68929e9d15fe27d13f91b0c1a767eb267019caba4032d372  new Confirmed (block=1531db3633036faed0cc63ba91f2e3b7a8df801b1d0fa25dc3ec90664d90985a, height=84, index=0)
+2024-05-10T13:52:17Z [default wallet] AddToWallet 40673b10c577ae51438950c40dc26252bf4e0adb54dc9d8c09639269afab47bd  new Confirmed (block=4192890f1e5a9309511de1871e2db65f4f93aea7b2b89cb8fa847b450ae3b115, height=85, index=0)
+2024-05-10T13:52:17Z [default wallet] AddToWallet 7f5b83ce754567105b44936189d4bfd7689b91ccef5ddecd3455ad7ea45770f5  new Confirmed (block=620c45c4e67b3f9ebcb8352ac9bc0c7de8aefd42c8ff18d51e79df885dad2d28, height=86, index=0)
+2024-05-10T13:52:17Z [default wallet] AddToWallet 5385f7f936e333e6e2652ce4ed02a45e410003b28506d525279294dc20de2959  new Confirmed (block=68cd4e088ae6e70a58228701fa6713250d4e032045bae4bc3388dbd85448a279, height=87, index=0)
+2024-05-10T13:52:17Z [default wallet] AddToWallet e9a8bed739682778d8c96fc903b3326e177abda3126bd33e83b83b60abc4628f  new Confirmed (block=6c939135ce7320e194d9a34c5fc1cdc66ff01e362bbbf7f6f0b7c0257d63b5be, height=88, index=0)
+2024-05-10T13:52:17Z UpdateTip: new best=03bab0e8268f4e8a163131c5abc65e1f651b2b86872d1ee959ba1fcfb7f4d297 height=89 version=0x20000000 log2_work=7.491853 tx=90 date='2024-05-10T13:52:32Z' progress=1.000000 cache=0.3MiB(89txo)
+2024-05-10T13:52:17Z CreateNewBlock(): block weight: 888 txs: 0 fees: 0 sigops 400
+2024-05-10T13:52:17Z Saw new header hash=33c45c3e6743c6ec657fd63a30502a975dec6855356d0dafeea62a12041bda0f height=90
+2024-05-10T13:52:17Z UpdateTip: new best=33c45c3e6743c6ec657fd63a30502a975dec6855356d0dafeea62a12041bda0f height=90 version=0x20000000 log2_work=7.507795 tx=91 date='2024-05-10T13:52:32Z' progress=1.000000 cache=0.3MiB(90txo)
+2024-05-10T13:52:17Z CreateNewBlock(): block weight: 888 txs: 0 fees: 0 sigops 400
+2024-05-10T13:52:17Z Saw new header hash=5150313e244cf1e34e944cc4daa067502729817a6c5c63d4ee4367c54fb5b120 height=91
+2024-05-10T13:52:17Z UpdateTip: new best=5150313e244cf1e34e944cc4daa067502729817a6c5c63d4ee4367c54fb5b120 height=91 version=0x20000000 log2_work=7.523562 tx=92 date='2024-05-10T13:52:32Z' progress=1.000000 cache=0.3MiB(91txo)
+2024-05-10T13:52:17Z CreateNewBlock(): block weight: 888 txs: 0 fees: 0 sigops 400
+2024-05-10T13:52:17Z Saw new header hash=4c20f482291a1672698efc5d29d58ec7b79cc1c89b32411e237ed608da6340d4 height=92
+2024-05-10T13:52:17Z UpdateTip: new best=4c20f482291a1672698efc5d29d58ec7b79cc1c89b32411e237ed608da6340d4 height=92 version=0x20000000 log2_work=7.539159 tx=93 date='2024-05-10T13:52:33Z' progress=1.000000 cache=0.3MiB(92txo)
+2024-05-10T13:52:17Z CreateNewBlock(): block weight: 888 txs: 0 fees: 0 sigops 400
+2024-05-10T13:52:17Z Saw new header hash=112a097b86b91916d06b4ed91ad9dfb8fd5f0e7f87e49b0906d6c4ab56d7f546 height=93
+2024-05-10T13:52:17Z UpdateTip: new best=112a097b86b91916d06b4ed91ad9dfb8fd5f0e7f87e49b0906d6c4ab56d7f546 height=93 version=0x20000000 log2_work=7.554589 tx=94 date='2024-05-10T13:52:33Z' progress=1.000000 cache=0.3MiB(93txo)
+2024-05-10T13:52:17Z CreateNewBlock(): block weight: 888 txs: 0 fees: 0 sigops 400
+2024-05-10T13:52:17Z Saw new header hash=3b9976bb59b3e3e5a4b00cea1f897fe1e0b63f7885ff4953ac425e29a5c73976 height=94
+2024-05-10T13:52:17Z [default wallet] AddToWallet 85a4db48b5a3506bd225c3f3ff27b646378f13055e4763300b26c9bfecbb8d46  new Confirmed (block=03bab0e8268f4e8a163131c5abc65e1f651b2b86872d1ee959ba1fcfb7f4d297, height=89, index=0)
+2024-05-10T13:52:17Z [default wallet] AddToWallet 3f2da286ca0bee350d1dc5977c0fb2632b77cce3f2167d0f05c99d80183381a4  new Confirmed (block=33c45c3e6743c6ec657fd63a30502a975dec6855356d0dafeea62a12041bda0f, height=90, index=0)
+2024-05-10T13:52:17Z [default wallet] AddToWallet fd7519782aa31767cf357c45908528647d258a728d289d02cd5d3dad4f159a5e  new Confirmed (block=5150313e244cf1e34e944cc4daa067502729817a6c5c63d4ee4367c54fb5b120, height=91, index=0)
+2024-05-10T13:52:17Z [default wallet] AddToWallet 01e5f6b2f675bcd1332091c304c20efd11caaaf38821cb1ab2b1ed083507aa7f  new Confirmed (block=4c20f482291a1672698efc5d29d58ec7b79cc1c89b32411e237ed608da6340d4, height=92, index=0)
+2024-05-10T13:52:17Z [default wallet] AddToWallet 9c576c0f6287f915ed5214b104426a538cf94815fc855e9783743abd9bd735ba  new Confirmed (block=112a097b86b91916d06b4ed91ad9dfb8fd5f0e7f87e49b0906d6c4ab56d7f546, height=93, index=0)
+2024-05-10T13:52:17Z UpdateTip: new best=3b9976bb59b3e3e5a4b00cea1f897fe1e0b63f7885ff4953ac425e29a5c73976 height=94 version=0x20000000 log2_work=7.569856 tx=95 date='2024-05-10T13:52:33Z' progress=1.000000 cache=0.3MiB(94txo)
+2024-05-10T13:52:17Z CreateNewBlock(): block weight: 888 txs: 0 fees: 0 sigops 400
+2024-05-10T13:52:17Z Saw new header hash=7cc9ddae70ac073e8fab59824574a4b2bc4bea8744474007bdbe6537773e66fe height=95
+2024-05-10T13:52:17Z UpdateTip: new best=7cc9ddae70ac073e8fab59824574a4b2bc4bea8744474007bdbe6537773e66fe height=95 version=0x20000000 log2_work=7.584963 tx=96 date='2024-05-10T13:52:33Z' progress=1.000000 cache=0.3MiB(95txo)
+2024-05-10T13:52:17Z CreateNewBlock(): block weight: 888 txs: 0 fees: 0 sigops 400
+2024-05-10T13:52:17Z Saw new header hash=3c3b4c7ae65d024ba2b71bcdd6fc2171e83608f2e881e27353740546a749ea14 height=96
+2024-05-10T13:52:17Z UpdateTip: new best=3c3b4c7ae65d024ba2b71bcdd6fc2171e83608f2e881e27353740546a749ea14 height=96 version=0x20000000 log2_work=7.599913 tx=97 date='2024-05-10T13:52:33Z' progress=1.000000 cache=0.3MiB(96txo)
+2024-05-10T13:52:17Z CreateNewBlock(): block weight: 888 txs: 0 fees: 0 sigops 400
+2024-05-10T13:52:17Z Saw new header hash=458da89b7ccbbeed714c939ed7afe2fe22b623a5c475f893deb4b3b57d5e9bc6 height=97
+2024-05-10T13:52:17Z UpdateTip: new best=458da89b7ccbbeed714c939ed7afe2fe22b623a5c475f893deb4b3b57d5e9bc6 height=97 version=0x20000000 log2_work=7.614710 tx=98 date='2024-05-10T13:52:33Z' progress=1.000000 cache=0.3MiB(97txo)
+2024-05-10T13:52:17Z CreateNewBlock(): block weight: 888 txs: 0 fees: 0 sigops 400
+2024-05-10T13:52:17Z Saw new header hash=3ecb761f5fb92ae320acab1190db59442d21c5d2bedaafa86c064e8b9444cfcb height=98
+2024-05-10T13:52:17Z UpdateTip: new best=3ecb761f5fb92ae320acab1190db59442d21c5d2bedaafa86c064e8b9444cfcb height=98 version=0x20000000 log2_work=7.629357 tx=99 date='2024-05-10T13:52:34Z' progress=1.000000 cache=0.3MiB(98txo)
+2024-05-10T13:52:17Z CreateNewBlock(): block weight: 888 txs: 0 fees: 0 sigops 400
+2024-05-10T13:52:17Z Saw new header hash=48ba23227999aed500fa2b8f91cbd9a91cd9eca5064a90f0724f4a24c063dd52 height=99
+2024-05-10T13:52:17Z [default wallet] AddToWallet 2e1d8cfcf474837fe2be08336fe9f626aa109567f54dc5eb48ff73d6007cb0ac  new Confirmed (block=3b9976bb59b3e3e5a4b00cea1f897fe1e0b63f7885ff4953ac425e29a5c73976, height=94, index=0)
+2024-05-10T13:52:17Z [default wallet] AddToWallet ca3712db2328165032301eec00cdf5cbd49732659fc5caddff7f4568a016be32  new Confirmed (block=7cc9ddae70ac073e8fab59824574a4b2bc4bea8744474007bdbe6537773e66fe, height=95, index=0)
+2024-05-10T13:52:17Z [default wallet] AddToWallet 74477891ef4638a29a0fc7fe8e0a8780e028bab4f659bc1af5d17feed818c4c4  new Confirmed (block=3c3b4c7ae65d024ba2b71bcdd6fc2171e83608f2e881e27353740546a749ea14, height=96, index=0)
+2024-05-10T13:52:17Z [default wallet] AddToWallet da4c4493e3d349cb1ed4fb754d9567b8719b6b1639c71d38d86e7509ae28028b  new Confirmed (block=458da89b7ccbbeed714c939ed7afe2fe22b623a5c475f893deb4b3b57d5e9bc6, height=97, index=0)
+2024-05-10T13:52:17Z [default wallet] AddToWallet ef743ecbef3267708247e8a79b5d488ed4d5cff9df0e0201224bd01c3b11fedc  new Confirmed (block=3ecb761f5fb92ae320acab1190db59442d21c5d2bedaafa86c064e8b9444cfcb, height=98, index=0)
+2024-05-10T13:52:17Z UpdateTip: new best=48ba23227999aed500fa2b8f91cbd9a91cd9eca5064a90f0724f4a24c063dd52 height=99 version=0x20000000 log2_work=7.643856 tx=100 date='2024-05-10T13:52:34Z' progress=1.000000 cache=0.3MiB(99txo)
+2024-05-10T13:52:17Z CreateNewBlock(): block weight: 888 txs: 0 fees: 0 sigops 400
+2024-05-10T13:52:17Z Saw new header hash=77ec3242491c5b4199c9f4594a8907b458f1da0a0a3aa553bfc0e7c498241aa9 height=100
+2024-05-10T13:52:17Z UpdateTip: new best=77ec3242491c5b4199c9f4594a8907b458f1da0a0a3aa553bfc0e7c498241aa9 height=100 version=0x20000000 log2_work=7.658211 tx=101 date='2024-05-10T13:52:34Z' progress=1.000000 cache=0.3MiB(100txo)
+2024-05-10T13:52:17Z CreateNewBlock(): block weight: 888 txs: 0 fees: 0 sigops 400
+2024-05-10T13:52:17Z Saw new header hash=3fffb5339e974e4cd202bec9dbca930eb1ddb41fdcfc9ca00aef97dfbcd9f75c height=101
+2024-05-10T13:52:17Z UpdateTip: new best=3fffb5339e974e4cd202bec9dbca930eb1ddb41fdcfc9ca00aef97dfbcd9f75c height=101 version=0x20000000 log2_work=7.672425 tx=102 date='2024-05-10T13:52:34Z' progress=1.000000 cache=0.3MiB(101txo)
+2024-05-10T13:52:17Z [default wallet] AddToWallet 058e7d7df368f72e8ced8e2cb9d09943629ef9d5016cf62ad7f41df0b2579398  new Confirmed (block=48ba23227999aed500fa2b8f91cbd9a91cd9eca5064a90f0724f4a24c063dd52, height=99, index=0)
+2024-05-10T13:52:17Z [default wallet] AddToWallet fd018dcce1c817b4a0228155bec890112ee52802dd4cb300c546b9982d34decc  new Confirmed (block=77ec3242491c5b4199c9f4594a8907b458f1da0a0a3aa553bfc0e7c498241aa9, height=100, index=0)
+2024-05-10T13:52:17Z [default wallet] AddToWallet 374f72ea4f944fed86c574a1fd2b238d3cbea488f78a8ef345b26526aaa65b65  new Confirmed (block=3fffb5339e974e4cd202bec9dbca930eb1ddb41fdcfc9ca00aef97dfbcd9f75c, height=101, index=0)
