@@ -111,3 +111,5 @@
 2024-05-11T03:46:35Z [Miner] setKeyPool.size() = 2000
 2024-05-11T03:46:35Z [Miner] mapWallet.size() = 0
 2024-05-11T03:46:35Z [Miner] m_address_book.size() = 0
+2024-05-11T03:59:13Z [Miner] keypool reserve 1
+2024-05-11T03:59:13Z [Miner] keypool keep 1
