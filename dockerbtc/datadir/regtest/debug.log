@@ -113,3 +113,115 @@
 2024-05-11T03:46:35Z [Miner] m_address_book.size() = 0
 2024-05-11T03:59:13Z [Miner] keypool reserve 1
 2024-05-11T03:59:13Z [Miner] keypool keep 1
+2024-05-11T04:03:02Z tor: Thread interrupt
+2024-05-11T04:03:02Z Shutdown: In progress...
+2024-05-11T04:03:02Z torcontrol thread exit
+2024-05-11T04:03:02Z opencon thread exit
+2024-05-11T04:03:02Z addcon thread exit
+2024-05-11T04:03:02Z msghand thread exit
+2024-05-11T04:03:02Z net thread exit
+2024-05-11T04:03:02Z DumpAnchors: Flush 0 outbound block-relay-only peer addresses to anchors.dat started
+2024-05-11T04:03:02Z DumpAnchors: Flush 0 outbound block-relay-only peer addresses to anchors.dat completed (0.00s)
+2024-05-11T04:03:02Z scheduler thread exit
+2024-05-11T04:03:02Z Writing 0 unbroadcast transactions to disk.
+2024-05-11T04:03:02Z Dumped mempool: 0.000s to copy, 0.002s to dump
+2024-05-11T04:03:02Z Flushed fee estimates to fee_estimates.dat.
+2024-05-11T04:03:02Z [Miner] Releasing wallet
+2024-05-11T04:03:02Z Shutdown: done
+
+
+
+
+
+2024-05-11T04:03:03Z Bitcoin Core version v27.0.0 (release build)
+2024-05-11T04:03:03Z Script verification uses 9 additional threads
+2024-05-11T04:03:03Z Using the 'arm_shani(1way,2way)' SHA256 implementation
+2024-05-11T04:03:03Z Default data directory /root/.bitcoin
+2024-05-11T04:03:03Z Using data directory /root/.bitcoin/regtest
+2024-05-11T04:03:03Z Config file: /root/.bitcoin/bitcoin.conf
+2024-05-11T04:03:03Z Config file arg: deprecatedrpc="create_bdb"
+2024-05-11T04:03:03Z Config file arg: fallbackfee="0.0001"
+2024-05-11T04:03:03Z Config file arg: regtest="1"
+2024-05-11T04:03:03Z Config file arg: server="1"
+2024-05-11T04:03:03Z Config file arg: txindex="1"
+2024-05-11T04:03:03Z Config file arg: [regtest] mintxfee="0.001"
+2024-05-11T04:03:03Z Config file arg: [regtest] rpcbind="0.0.0.0"
+2024-05-11T04:03:03Z Config file arg: [regtest] rpcport="8332"
+2024-05-11T04:03:03Z Config file arg: [regtest] txconfirmtarget="1"
+2024-05-11T04:03:03Z Command-line arg: datadir="/root/.bitcoin"
+2024-05-11T04:03:03Z Command-line arg: printtoconsole=""
+2024-05-11T04:03:03Z Using at most 125 automatic connections (1048576 file descriptors available)
+2024-05-11T04:03:03Z Using 16 MiB out of 16 MiB requested for signature cache, able to store 524288 elements
+2024-05-11T04:03:03Z Using 16 MiB out of 16 MiB requested for script execution cache, able to store 524288 elements
+2024-05-11T04:03:03Z scheduler thread start
+2024-05-11T04:03:03Z WARNING: option -rpcbind was ignored because -rpcallowip was not specified, refusing to allow everyone to connect
+2024-05-11T04:03:03Z Binding RPC on address ::1 port 8332
+2024-05-11T04:03:03Z Binding RPC on address 127.0.0.1 port 8332
+2024-05-11T04:03:03Z Using random cookie authentication.
+2024-05-11T04:03:03Z Generated RPC authentication cookie /root/.bitcoin/regtest/.cookie
+2024-05-11T04:03:03Z Starting HTTP server with 4 worker threads
+2024-05-11T04:03:03Z Using wallet directory /root/.bitcoin/regtest/wallets
+2024-05-11T04:03:03Z init message: Verifying wallet(s)…
+2024-05-11T04:03:03Z Using /16 prefix for IP bucketing
+2024-05-11T04:03:03Z init message: Loading P2P addresses…
+2024-05-11T04:03:03Z Loaded 0 addresses from peers.dat  0ms
+2024-05-11T04:03:03Z init message: Loading banlist…
+2024-05-11T04:03:03Z SetNetworkActive: true
+2024-05-11T04:03:03Z Script verification uses 9 additional threads
+2024-05-11T04:03:03Z Cache configuration:
+2024-05-11T04:03:03Z * Using 2.0 MiB for block index database
+2024-05-11T04:03:03Z * Using 56.0 MiB for transaction index database
+2024-05-11T04:03:03Z * Using 8.0 MiB for chain state database
+2024-05-11T04:03:03Z * Using 384.0 MiB for in-memory UTXO set (plus up to 286.1 MiB of unused mempool space)
+2024-05-11T04:03:03Z init message: Loading block index…
+2024-05-11T04:03:03Z Validating signatures for all blocks.
+2024-05-11T04:03:03Z Setting nMinimumChainWork=0000000000000000000000000000000000000000000000000000000000000000
+2024-05-11T04:03:03Z Opening LevelDB in /root/.bitcoin/regtest/blocks/index
+2024-05-11T04:03:03Z Opened LevelDB successfully
+2024-05-11T04:03:03Z Using obfuscation key for /root/.bitcoin/regtest/blocks/index: 0000000000000000
+2024-05-11T04:03:03Z LoadBlockIndexDB: last block file = 0
+2024-05-11T04:03:03Z LoadBlockIndexDB: last block file info: CBlockFileInfo(blocks=1, size=293, heights=0...0, time=2011-02-02...2011-02-02)
+2024-05-11T04:03:03Z Checking all blk files are present...
+2024-05-11T04:03:03Z Initializing chainstate Chainstate [ibd] @ height -1 (null)
+2024-05-11T04:03:03Z Opening LevelDB in /root/.bitcoin/regtest/chainstate
+2024-05-11T04:03:03Z Opened LevelDB successfully
+2024-05-11T04:03:03Z Using obfuscation key for /root/.bitcoin/regtest/chainstate: 0875e7d2f8031e01
+2024-05-11T04:03:03Z Loaded best chain: hashBestChain=0f9188f13cb7b2c71f2a335e3a4fc328bf5beb436012afca590b1a11466e2206 height=0 date=2011-02-02T23:16:42Z progress=1.000000
+2024-05-11T04:03:03Z Opening LevelDB in /root/.bitcoin/regtest/chainstate
+2024-05-11T04:03:03Z Opened LevelDB successfully
+2024-05-11T04:03:03Z Using obfuscation key for /root/.bitcoin/regtest/chainstate: 0875e7d2f8031e01
+2024-05-11T04:03:03Z [Chainstate [ibd] @ height 0 (0f9188f13cb7b2c71f2a335e3a4fc328bf5beb436012afca590b1a11466e2206)] resized coinsdb cache to 8.0 MiB
+2024-05-11T04:03:03Z [Chainstate [ibd] @ height 0 (0f9188f13cb7b2c71f2a335e3a4fc328bf5beb436012afca590b1a11466e2206)] resized coinstip cache to 384.0 MiB
+2024-05-11T04:03:03Z init message: Verifying blocks…
+2024-05-11T04:03:03Z  block index              11ms
+2024-05-11T04:03:03Z Opening LevelDB in /root/.bitcoin/regtest/indexes/txindex
+2024-05-11T04:03:03Z Opened LevelDB successfully
+2024-05-11T04:03:03Z Using obfuscation key for /root/.bitcoin/regtest/indexes/txindex: 0000000000000000
+2024-05-11T04:03:03Z Setting NODE_NETWORK on non-prune mode
+2024-05-11T04:03:03Z block tree size = 1
+2024-05-11T04:03:03Z nBestHeight = 0
+2024-05-11T04:03:03Z initload thread start
+2024-05-11T04:03:03Z torcontrol thread start
+2024-05-11T04:03:03Z Bound to 127.0.0.1:18445
+2024-05-11T04:03:03Z Bound to [::]:18444
+2024-05-11T04:03:03Z Bound to 0.0.0.0:18444
+2024-05-11T04:03:03Z txindex thread start
+2024-05-11T04:03:03Z txindex is enabled at height 0
+2024-05-11T04:03:03Z txindex thread exit
+2024-05-11T04:03:03Z Loaded 0 addresses from "anchors.dat"
+2024-05-11T04:03:03Z Loading 0 mempool transactions from disk...
+2024-05-11T04:03:03Z 0 block-relay-only anchors will be tried for connections.
+2024-05-11T04:03:03Z init message: Starting network threads…
+2024-05-11T04:03:03Z Imported mempool transactions from disk: 0 succeeded, 0 failed, 0 expired, 0 already there, 0 waiting for initial broadcast
+2024-05-11T04:03:03Z net thread start
+2024-05-11T04:03:03Z addcon thread start
+2024-05-11T04:03:03Z opencon thread start
+2024-05-11T04:03:03Z dnsseed thread start
+2024-05-11T04:03:03Z Loading addresses from DNS seed dummySeed.invalid.
+2024-05-11T04:03:03Z msghand thread start
+2024-05-11T04:03:03Z init message: Done loading
+2024-05-11T04:03:03Z initload thread exit
+2024-05-11T04:03:03Z 0 addresses found from DNS seeds
+2024-05-11T04:03:03Z dnsseed thread exit
+2024-05-11T04:04:04Z Adding fixed seeds as 60 seconds have passed and addrman is empty for at least one reachable network
+2024-05-11T04:04:04Z Added 0 fixed seeds from reachable networks.
