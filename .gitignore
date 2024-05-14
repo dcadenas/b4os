@@ -1,3 +1,13 @@
 .DS_Store
 dockerbtc/datadir/regtest/
+dockerbtc/datadir/.lock
+dockerbtc/datadir/banlist.json
+dockerbtc/datadir/bitcoind.pid
+dockerbtc/datadir/blocks/
+dockerbtc/datadir/chainstate/
+dockerbtc/datadir/debug.log
+dockerbtc/datadir/peers.dat
+dockerbtc/datadir/settings.json
+
 regtest-tx-tester-dcadenas/
+rpc-scavenger-hunt-dcadenas/
