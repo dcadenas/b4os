@@ -11,6 +11,7 @@ ENV PATH="/root/bitcoin-27.0/bin:${PATH}"
 
 WORKDIR /tmp/
 
+RUN apt-get update && apt-get install -y bash-completion
 RUN mkdir /etc/bash_completion.d/ && \
     wget https://raw.githubusercontent.com/bitcoin/bitcoin/master/contrib/completions/bash/bitcoind.bash && \
     wget https://raw.githubusercontent.com/bitcoin/bitcoin/master/contrib/completions/bash/bitcoin-cli.bash && \
@@ -20,4 +21,4 @@ RUN mkdir /etc/bash_completion.d/ && \
 WORKDIR /root/exercises
 COPY bashrc /root/.bashrc
 
-CMD ["bitcoind","-datadir=/root/.bitcoin", "-printtoconsole"]
+CMD tail -f /dev/null

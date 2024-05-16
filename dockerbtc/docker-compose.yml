@@ -5,4 +5,4 @@ services:
     volumes:
       - ./datadir:/root/.bitcoin
       - ./bash_profile:/root/.bash_profile
-      - ../regtest-tx-tester-dcadenas/submission/:/root/exercises
+      - ../rpc-scavenger-hunt-dcadenas/submission/:/root/exercises
