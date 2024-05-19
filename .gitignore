@@ -11,3 +11,4 @@ dockerbtc/datadir/settings.json
 
 regtest-tx-tester-dcadenas/
 rpc-scavenger-hunt-dcadenas/
+btcdeb/
